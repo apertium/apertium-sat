@@ -1,0 +1,10 @@
+{
+    "analysis": {
+        "input": "analysis-input.txt",
+        "mode": "sat-disam"
+    },
+    "generation": {
+        "input": "generation-input.txt",
+        "mode": "sat-gener"
+    }
+}
