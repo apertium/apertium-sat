@@ -2,126 +2,253 @@
 <dictionary>
 
   <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  <alphabet>ᱚᱛᱜᱝᱞᱟᱠᱡᱢᱣᱤᱥᱦᱧᱨᱩᱪᱫᱬᱭᱮᱯᱰᱱᱲᱳᱴᱵᱶᱷᱸᱹᱻᱽᱼ</alphabet>
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
-    <sdef n="n"               c="Noun"/>
-    <sdef n="np"              c="Proper noun"/>
-    <sdef n="vblex"           c="Verb, lexical"/>
-    <sdef n="vbmod"           c="Modal verb"/>
-    <sdef n="vaux"            c="Auxiliary verb"/>
-    <sdef n="vbser"           c="'To be' verb"/>
-    <sdef n="vbhaver"         c="'To have' verb"/>
-    <sdef n="cnjsub"          c="Subordinating conjunction"/>
-    <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
-    <sdef n="cnjadv"          c="Adverbial conjunction"/>
-    <sdef n="pr"              c="Preposition"/>
-    <sdef n="adv"             c="Adverb"/>
-    <sdef n="ij"              c="Interjection"/>
-    <sdef n="adj"             c="Adjective"/>
-    <sdef n="prn"             c="Pronoun"/>
-
-    <sdef n="attr"            c="Attributive"/>
-    <sdef n="top"             c="Toponym"/>
-    <sdef n="ant"             c="Anthroponym"/>
-    <sdef n="cog"             c="Cognomen"/>
-    <sdef n="org"             c="Organisation"/>
-    <sdef n="al"              c="Altres / misc proper nouns"/>
-
-    <sdef n="pers"            c="Personal pronoun"/>
-    <sdef n="ref"             c="Reflexive pronoun"/>
-    <sdef n="res"             c="Reciprocal pronoun"/>
-
-    <sdef n="det"             c="Determiner"/>
-    <sdef n="pos"             c="Possessive"/>
-
-    <sdef n="p1"              c="1st person"/>
-    <sdef n="p2"              c="2nd person"/>
-    <sdef n="p3"              c="3rd person"/>
-
-    <sdef n="nt"              c="Neuter"/>
-    <sdef n="ut"              c="Utrum"/>
-    <sdef n="f"               c="Feminine"/>
-    <sdef n="m"               c="Masculine"/>
-    <sdef n="un"              c="No gender"/>
-
-    <sdef n="sg"              c="Singular"/>
-    <sdef n="du"              c="Dual"/>
-    <sdef n="pl"              c="Plural"/>
-    <sdef n="sp"              c="Singular / plural"/>
-
-    <sdef n="ind"             c="Indefinite"/>
-    <sdef n="def"             c="Definite"/>
-
-    <sdef n="nom"             c="Nominative"/>
-    <sdef n="acc"             c="Accusative"/>
-    <sdef n="gen"             c="Genitive"/>
-
-    <sdef n="dem"             c="Demonstrative"/>
-    <sdef n="itg"             c="Question word / interrogative"/>
-    <sdef n="qnt"             c="Quantifier"/>
-    <sdef n="neg"             c="Negative"/>
-    <sdef n="emph"            c="Emphatic"/>
-
-    <sdef n="inf"             c="Infinitive"/>
-    <sdef n="pres"            c="Present"/>
-    <sdef n="imp"             c="Imperative"/>
-    <sdef n="pret"            c="Preterite"/>
-    <sdef n="pp"              c="Perfect participle"/>
-    <sdef n="pprs"            c="Present participle"/>
-    <sdef n="pasv"            c="Passive"/>
-    <sdef n="actv"            c="Active voice"/>
-
-    <sdef n="sint"            c="Synthetic (of adjectives)"/>
-    <sdef n="pst"             c="Positive"/>
-    <sdef n="comp"            c="Comparative"/>
-    <sdef n="sup"             c="Superlative"/>
-
-    <sdef n="ord"             c="Ordinal"/>
-    <sdef n="acr"             c="Acronym"/>
-    <sdef n="unc"             c="Uncountable"/>
-
-    <sdef n="num"             c="Numeral"/>
-    <sdef n="sent"            c="Sentence end"/>
-    <sdef n="cm"              c="Comma"/>
-    <sdef n="apos"            c="Apostrophe"/>
-    <sdef n="guio"            c="Dash"/>
-    <sdef n="lpar"            c="Left parenthesis"/>
-    <sdef n="rpar"            c="Right parenthesis"/>
-    <sdef n="lquot"           c="Left quote"/>
-    <sdef n="rquot"           c="Right quote"/>
-
-    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
-    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
+	<sdef n="n" 	c="Noun"/> 
+    <sdef n="np" 	c="Proper name"/> 
+    <sdef n="pr" 	c="Preposition"/> 
+    <sdef n="vblex" 	c="Verb"/> 
+    <sdef n="vbmod" 	c="Modal verb"/> 
+    <sdef n="vaux" 	c="Auxiliary verb"/> 
+    <sdef n="vbser" 	c="Verb 'to be'"/> 
+    <sdef n="vbhaver" 	c="Verb 'to have'"/> 
+    <sdef n="vbdo" 	c="Verb 'to do'"/> 
+    <sdef n="det" 	c="Determiner"/> 
+    <sdef n="predet" 	c="Predeterminer"/> 
+    <sdef n="prn" 	c="Pronoun"/> 
+    <sdef n="cnjcoo" 	c="Coordinating conjunction"/> 
+    <sdef n="cnjsub" 	c="Subordinating conjunction"/> 
+    <sdef n="p1" 	c="First person"/> 
+    <sdef n="p2" 	c="Second person"/> 
+    <sdef n="p3" 	c="Third person"/> 
+    <sdef n="attr" 	c="Attributive"/> 
+    <sdef n="sg" 	c="Singular"/> 
+	<sdef n="du" 	c="Dual"/>
+    <sdef n="pl" 	c="Plural"/> 
+    <sdef n="sp" 	c="Singular / plural"/> 
+    <sdef n="m" 	c="Masculine"/> 
+    <sdef n="f" 	c="Feminine"/> 
+    <sdef n="mf" 	c="Masculine / feminine"/> 
+    <sdef n="nt" 	c="Neuter"/> 
+    <sdef n="mfn" 	c="Masculine / feminine / neuter"/> 
+    <sdef n="def" 	c="Definite"/> 
+    <sdef n="ind" 	c="Indefinite"/> 
+    <sdef n="ref" 	c="Reflexive"/> 
+    <sdef n="dem" 	c="Demonstrative"/> 
+    <sdef n="top" 	c="Toponym"/> 
+    <sdef n="al" 	c="Altres (other)"/> 
+    <sdef n="ant" 	c="Anthroponym (first name)"/> 
+    <sdef n="cog" 	c="Cognomen (family name)"/> 
+	<sdef n="post"    c="Postposition"/>    
+    <sdef n="prs" 	c="Present subjunctive"/> 
+    <sdef n="pres" 	c="Present (tense)"/> 
+    <sdef n="past" 	c="Past"/> 
+    <sdef n="pii" 	c="Past indicative"/> 
+    <sdef n="pis" 	c="Past subjunctive"/> 
+    <sdef n="imp" 	c="Imperative"/> 
+    <sdef n="inf" 	c="Infinitive"/> 
+    <sdef n="pp" 	c="Past participle"/> 
+    <sdef n="subs" 	c="Verbal noun"/> 
+    <sdef n="pprs" 	c="Present participle"/> 
+    <sdef n="ger" 	c="Gerund"/> 
+    <sdef n="cm" 	c="Comma"/> 
+    <sdef n="sent" 	c="End of sentence marker"/> 
+    <sdef n="quot" 	c="Quote mark"/> 
+    <sdef n="lquot" 	c="Quote mark left"/> 
+    <sdef n="rquot" 	c="Quote mark right"/> 
+    <sdef n="abbr" 	c="Abbreviation"/> 
+    <sdef n="adj" 	c="Adjective"/> 
+    <sdef n="adv" 	c="Adverb"/> 
+    <sdef n="preadv" 	c="Pre-adverb"/> 
+    <sdef n="rel" 	c="Relative"/> 
+    <sdef n="itg" 	c="Interrogative"/> 
+    <sdef n="cnjadv" 	c="Adverbial conjunction"/> 
+    <sdef n="comp" 	c="Comparative"/> 
+    <sdef n="sup" 	c="Superlative"/> 
+    <sdef n="pred" 	c="Predicative"/> 
+    <sdef n="ord" 	c="Ordinal"/> 
+    <sdef n="qnt" 	c="Quantifier"/> 
+    <sdef n="num" 	c="Numeral / Number"/> 
+    <sdef n="pron" 	c="Pronoun"/> 
+    <sdef n="ij" 	c="Interjection"/> 
+    <sdef n="lpar" 	c="Left parenthesis"/> 
+    <sdef n="rpar" 	c="Right parenthesis"/> 
+    <sdef n="apos" 	c="Apostrophe"/> 
+    <sdef n="percent" 	c="Percentage"/> 
+    <sdef n="guio" 	c="Hyphen"/> 
+    <sdef n="sep" 	c="Seperable verb"/> 
+    <sdef n="sint" 	c="Synthetic adjective"/> 
+    <sdef n="nom" 	c="Nominative"/> 
+    <sdef n="gen" 	c="Genitive"/> 
+    <sdef n="acr" 	c="Acronym"/> 
+    <sdef n="org" 	c="Organisation"/> 
+    <sdef n="tn" 	c=""/> 
+    <sdef n="nn" 	c=""/> 
+    <sdef n="aa" 	c="Animate"/> 
+    <sdef n="an" 	c="Inanimate"/> 
+    <sdef n="pos" 	c="Possessive"/> 
+    <sdef n="lquest" 	c="left question mark"/> 
+    <sdef n="obj" 	c="Object"/> 
+    <sdef n="subj" 	c="Subject"/> 
+    <sdef n="pers" 	c="Personal (pronoun)"/> 
+    <sdef n="file" 	c="Filename"/> 
   </sdefs>
 
   <pardefs>
     <!-- Define paradigms within <pardef> here. -->
-    <pardef n="numeral">
-      <e><re>[0123456789]+</re></e>
+
+	<!-- SECTION: Punctuation -->      
+    <pardef n="numeros">
+      <e>       <re>[0-9]+</re><p><l></l><r><s n="num"/></r></p></e>
+      <e>       <re>[᱐᱑᱒᱓᱔᱕᱖᱗᱘᱙]+([.,][᱐᱑᱒᱓᱔᱕᱖᱗᱘᱙]+)?</re><p><l/><r><s n="num"/></r></p></e>
+      <e>       <re>([᱕᱖᱗᱘᱙]|[᱑᱒᱓᱔᱕᱖᱗᱘᱙][᱐᱑᱒᱓᱔᱕᱖᱗᱘᱙]+)</re><p><l><b/>ᱜᱚᱴᱟᱝ</l><r><s n="adj"/><s n="ord"/></r></p></e>
+      <e>       <re>[᱐᱑᱒᱓᱔᱕᱖᱗᱘᱙]+([.,][᱐᱑᱒᱓᱔᱕᱖᱗᱘᱙]+)?%</re><p><l></l><r><s n="num"/><s n="percent"/></r></p></e>
     </pardef>
-    <pardef n="number">
-      <e><par n="numeral"/><p><l></l><r><s n="num"/></r></p></e>
+	
+	<pardef n="separa">
+      <e><re>[.\?;:!᱾᱿]</re><p><l/><r><s n="sent"/></r></p></e>
     </pardef>
 
-    <pardef n="house__n">
-      <e><p><l></l><r><s n="n"/><s n="attr"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
-      <e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
+    <pardef n="guio">
+      <e><re>[—\-]+</re><p><l></l><r><s n="guio"/></r></p></e>
     </pardef>
-  </pardefs>
+
+    <pardef n="coma">
+      <e><re>,</re><p><l></l><r><s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="quotes">
+      <e><re>[«]+</re><p><l></l><r><s n="lquot"/></r></p></e>
+      <e><re>[»]+</re><p><l></l><r><s n="rquot"/></r></p></e>
+    </pardef>
+
+    <pardef n="paresq">
+      <e><re>[\(\[]</re><p><l></l><r><s n="lpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="pardret">
+      <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
+    </pardef>
+
+   <pardef n="__abbr">
+<!-- Rupee -->
+      <e>     <p><l>रु</l><r>रु.<s n="abbr"/></r></p></e>
+      <e>     <p><l>रु.</l><r>रु.<s n="abbr"/></r></p></e>
+<!-- ᱱᱚᱢᱵᱚᱨ -->	  
+	  <e>     <p><l>ᱱᱚ</l><r>ᱱᱚ.<s n="abbr"/></r></p></e>
+	  <e>     <p><l>ᱱᱚ.</l><r>ᱱᱚ.<s n="abbr"/></r></p></e>
+<!-- ᱫᱟᱠᱛᱚᱨ -->	  
+	  <e>     <p><l>ᱰᱨ</l><r>ᱰᱨ.<s n="abbr"/></r></p></e>
+	  <e>     <p><l>ᱰᱨ.</l><r>ᱰᱨ.<s n="abbr"/></r></p></e>	  
+	  
+</pardef>		
+<pardef n="emails">
+  <e>       <re>[a-z.]+@[a-z.]+</re><p><l></l><r><s n="num"/></r></p></e>
+</pardef>
+
+<pardef n="urls">
+  <e>       <re>((www.)[a-z\-]+[.][a-z]+)</re><p><l></l><r><s n="num"/></r></p></e>
+</pardef>
+	
+<!-- SECTION: Numerals -->
+
+<pardef n="ᱢᱤᱫ__num">
+      <e><p><l></l><r><s n="num"/></r></p></e>
+	</pardef>
+
+<pardef n="__ij">
+      <e>     <p><l>ᱟᱦᱟ</l><r>ᱟᱦᱟ<s n="ij"/></r></p></e>
+      <e>     <p><l>ᱥᱟᱨᱦᱟᱣ</l><r>ᱥᱟᱨᱦᱟᱣ<s n="ij"/></r></p></e>
+	  <e>     <p><l>ᱥᱟᱨᱦᱟᱣ ᱜᱮ</l><r>ᱥᱟᱨᱦᱟᱣ ᱜᱮ<s n="ij"/></r></p></e>
+      <e>     <p><l>ᱦᱚᱭ</l><r>ᱦᱚᱭ<s n="ij"/></r></p></e>
+      <e>     <p><l>ᱦᱮᱸ</l><r>ᱦᱮᱸ<s n="ij"/></r></p></e>
+      <e>     <p><l>ᱮᱦᱮ</l><r>ᱮᱦᱮ<s n="ij"/></r></p></e>
+      <e>     <p><l>ᱥᱟᱹᱨᱤ ᱜᱮ</l><r>ᱥᱟᱹᱨᱤ ᱜᱮ<s n="ij"/></r></p></e>     
+    </pardef>
+
+    <!-- SECTION: Postpositions -->  
+
+    <!-- genitives -->
+    <pardef n="__gen_endings">
+        <e><p><l>ᱭᱟᱜ</l><r>ᱭᱟᱜ<s n="post"/><s n="gen"/><s n="nt"/><s n="sg"/></r></p></e>
+		<e><p><l>ᱨᱤᱱ</l><r>ᱨᱤᱱ<s n="post"/><s n="gen"/><s n="nt"/><s n="du"/></r></p></e>
+        <e><p><l>ᱠᱤᱱᱟᱜ</l><r>ᱠᱤᱱᱟᱜ<s n="post"/><s n="gen"/><s n="nt"/><s n="pl"/></r></p></e>
+    </pardef>
+
+<!-- SECTION: Paradigm Nouns -->
+
+
+    <pardef n="ᱵᱤᱥᱩ__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+    </pardef>
+ 		
+	<pardef n="ᱥᱨᱤᱭᱟ__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+    </pardef>
+
+    <pardef n="ᱠᱤᱥᱠᱩ__np">
+	<e><p><l></l><r><s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n">       
+       <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+       <e><p><l>ᱠᱤᱱ</l><r><s n="n"/><s n="du"/></r></p></e>
+       <e><p><l>ᱠᱚ</l><r><s n="n"/><s n="pl"/></r></p></e>
+    </pardef>
+	
+    <pardef n="ᱵᱷᱟᱨᱚᱛ__np">
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/></r></p></e>
+    </pardef>
+
+
+	<!-- Paradigms define ends here. -->
+    </pardefs>
 
   <section id="main" type="standard">
     <!-- Define entries within <e> here. -->
-    <e lm="house"><i>house</i><par n="house__n"/></e>
+
+	<!-- Proper Nouns Male-->
+
+	<e lm="ᱨᱚᱵᱤ"><i>ᱨᱚᱵᱤ</i><par n="ᱵᱤᱥᱩ__np"/></e>
+<e lm="ᱨᱚᱵᱤ"><i>ᱨᱚᱵᱤ</i><par n="ᱵᱤᱥᱩ__np"/></e>
+<e lm="ᱥᱟᱹᱜᱩᱱ"><i>ᱥᱟᱹᱜᱩᱱ</i><par n="ᱵᱤᱥᱩ__np"/></e>
+<e lm="ᱯᱷᱟᱹᱜᱩᱱ"><i>ᱯᱷᱟᱹᱜᱩᱱ</i><par n="ᱵᱤᱥᱩ__np"/></e>
+<e lm="ᱵᱟᱦᱟ"><i>ᱵᱟᱦᱟ</i><par n="ᱵᱤᱥᱩ__np"/></e>
+
+
+	<!-- Proper Nouns Female-->
+
+<e lm="ᱥᱩᱱᱭᱟ"><i>ᱥᱩᱱᱭᱟ</i><par n="ᱥᱨᱤᱭᱟ__np"/></e>
+
+	<!-- Proper Nouns Surname-->
+<e lm="ᱢᱩᱨᱢᱩ"><i>ᱢᱩᱨᱢᱩ</i><par n="ᱠᱤᱥᱠᱩ__np"/></e>
+<e lm="ᱠᱤᱥᱠᱩ"><i>ᱠᱤᱥᱠᱩ</i><par n="ᱠᱤᱥᱠᱩ__np"/></e>
+<e lm="ᱦᱮᱸᱵᱽᱨᱚᱢ"><i>ᱦᱮᱸᱵᱽᱨᱚᱢ</i><par n="ᱠᱤᱥᱠᱩ__np"/></e>
+<e lm="ᱴᱩᱰᱩ"><i>ᱴᱩᱰᱩ</i><par n="ᱠᱤᱥᱠᱩ__np"/></e>
+
+	<!-- countries & cities & rivers -->
+<e lm="ᱵᱷᱟᱨᱚᱛ"><i>ᱵᱷᱟᱨᱚᱛ</i><par n="ᱵᱷᱟᱨᱚᱛ__np"/></e>
+<e lm="ᱱᱮᱯᱟᱞ"><i>ᱱᱮᱯᱟᱞ</i><par n="ᱵᱷᱟᱨᱚᱛ__np"/></e>
+<e lm="ᱵᱟᱝᱞᱟᱫᱮᱥ"><i>ᱵᱟᱝᱞᱟᱫᱮᱥ</i><par n="ᱵᱷᱟᱨᱚᱛ__np"/></e>
+
+
+
+
+
+	
   </section>
 
-  <section id="final" type="inconditional">
-    <e><par n="number"/></e>
-    <e><re>[.\?;:!…¿¶]</re><p><l></l><r><s n="sent"/></r></p></e>
-    <e><re>,</re>          <p><l></l><r><s n="cm"/></r></p></e>
-  </section>
+   <section id="final" type="inconditional">
+    <e><par n="coma"/></e>
+    <e><par n="separa"/></e>
+    <e><par n="guio"/></e>
+    <e><par n="numeros"/></e>
+    <e><par n="paresq"/></e>
+    <e><par n="pardret"/></e>
+    <e><par n="quotes"/></e>
+   </section>
 
 </dictionary>
 
@@ -131,3 +258,4 @@ Resources:
     https://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Monolingual_dictionaries
     https://wiki.apertium.org/wiki/List_of_symbols
 -->
+
