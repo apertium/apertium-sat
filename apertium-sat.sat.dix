@@ -155,8 +155,15 @@
 <!-- SECTION: Numerals -->
 
 <pardef n="ᱢᱤᱫ__num">
-      <e><p><l></l><r><s n="num"/></r></p></e>
+      <e><p><l></l><r><s n="num"/><s n="sg"/></r></p></e>
 	</pardef>
+<pardef n="ᱵᱟᱨ__num">
+      <e><p><l></l><r><s n="num"/><s n="du"/></r></p></e>
+	</pardef>
+<pardef n="ᱯᱮ__num">
+      <e><p><l></l><r><s n="num"/><s n="pl"/></r></p></e>
+	</pardef>	
+	
 
 <pardef n="__ij">
       <e>     <p><l>ᱟᱦᱟ</l><r>ᱟᱦᱟ<s n="ij"/></r></p></e>
@@ -193,10 +200,24 @@
 	<e><p><l></l><r><s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
     </pardef>
 
+	<!-- Paradigms define ends here. 
     <pardef n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n">       
        <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
-       <e><p><l>ᱠᱤᱱ</l><r><s n="n"/><s n="du"/></r></p></e>
        <e><p><l>ᱠᱚ</l><r><s n="n"/><s n="pl"/></r></p></e>
+    </pardef>
+
+<pardef n="house__n">
+  <e>       <p><l></l>          <r><s n="n"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>'s</l>        <r><s n="n"/><s n="sg"/><j/>'s<s n="gen"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="n"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>s'</l>        <r><s n="n"/><s n="pl"/><j/>'s<s n="gen"/></r></p></e>
+</pardef>
+			
+-->
+<pardef n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n">
+		<e>       <p><l></l>          <r><s n="n"/><s n="sg"/></r></p></e>
+		<e>       <p><l>ᱠᱤᱱ</l>          <r><s n="n"/><s n="du"/></r></p></e>
+		<e>       <p><l>ᱠᱚ</l>         <r><s n="n"/><s n="pl"/></r></p></e>
     </pardef>
 	
     <pardef n="ᱵᱷᱟᱨᱚᱛ__np">
@@ -209,8 +230,7 @@
 
   <section id="main" type="standard">
     <!-- Define entries within <e> here. -->
-<e lm="ᱚᱲᱟᱜ"><i>ᱚᱲᱟᱜ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
-<e lm="ᱢᱮᱨᱚᱢ"><i>ᱢᱮᱨᱚᱢ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+	
 	<!-- Proper Nouns Male-->
 
 <e lm="ᱨᱚᱵᱤ"><i>ᱨᱚᱵᱤ</i><par n="ᱵᱤᱥᱩ__np"/></e>
@@ -318,7 +338,15 @@
 <!-- SECTION: Numerals -->
 
 <e lm="ᱢᱤᱫ"><i>ᱢᱤᱫ</i><par n="ᱢᱤᱫ__num"/></e>
-	
+<e lm="ᱵᱟᱨ"><i>ᱵᱟᱨ</i><par n="ᱵᱟᱨ__num"/></e>	
+<e lm="ᱯᱮ"><i>ᱯᱮ</i><par n="ᱯᱮ__num"/></e>
+
+<!-- SECTION: Uncategorised Words -->
+
+<e lm="ᱚᱲᱟᱜ"><i>ᱚᱲᱟᱜ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+<e lm="ᱢᱮᱨᱚᱢ"><i>ᱢᱮᱨᱚᱢ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+<e lm="ᱰᱟᱹᱝᱜᱽᱨᱤ"><i>ᱰᱟᱹᱝᱜᱽᱨᱤ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+
   </section>
 
    <section id="final" type="inconditional">
