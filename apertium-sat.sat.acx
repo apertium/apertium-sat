@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <analysis-chars>
   <!-- Describe equivalent characters in monodices here. See https://wiki.apertium.org/wiki/Acx for more information. -->
+
+<!-- Santali (Ol Chiki) Numeric Sun "᱐" means Zero is quivalent to English Numberal Zero "0" -->
+<char value ="᱐">
+ <equiv-char value ="0"/>
+
+</char>
+
 </analysis-chars>
 
