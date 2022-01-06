@@ -14,7 +14,8 @@
     <sdef n="vaux" 	c="Auxiliary verb"/> 
     <sdef n="vbser" 	c="Verb 'to be'"/> 
     <sdef n="vbhaver" 	c="Verb 'to have'"/> 
-    <sdef n="vbdo" 	c="Verb 'to do'"/> 
+    <sdef n="vbdo" 	c="Verb 'to do'"/>
+	<sdef n="tv"     c="transitive"/> 	
     <sdef n="det" 	c="Determiner"/> 
     <sdef n="predet" 	c="Predeterminer"/> 
     <sdef n="prn" 	c="Pronoun"/> 
@@ -94,46 +95,127 @@
     <sdef n="obj" 	c="Object"/> 
     <sdef n="subj" 	c="Subject"/> 
     <sdef n="pers" 	c="Personal (pronoun)"/> 
-    <sdef n="file" 	c="Filename"/> 
+    <sdef n="file" 	c="Filename"/>
+    <sdef n="web" 	c="Links and Emails"/>
+    <sdef n="muc"	c="Muchad"/>  
   </sdefs>
 
   <pardefs>
     <!-- Define paradigms within <pardef> here. -->
 
+
+<pardef n="hd-hour">
+    <e><re>[0-9]</re></e>
+    <e><re>[01][0-9]</re></e>
+    <e><re>2[0-3]</re></e>
+</pardef>
+
+<pardef n="hd-separator">
+    <e><i>:</i></e>
+</pardef>
+
+<pardef n="hd-minute">
+    <e><re>[012345][0-9]</re></e>
+</pardef>
+
+<pardef n="hour-digital">
+    <e><par n="hd-hour"/><par n="hd-separator"/><par n="hd-minute"/><p><l></l><r><s n="num"/></r></p></e>
+</pardef>
+
+<pardef n="symbols">
+    <e>       <p><l></l>      <r><s n="num"/></r></p></e>
+
+    <e>       <p><l>%</l>     <r>%<s n="num"/></r></p></e>
+    <e r="LR"><p><l><b/>%</l> <r>%<s n="num"/></r></p></e>
+  
+    <e>       <p><l>°</l><r>°<s n="num"/></r></p></e>
+    <e r="LR"><p><l>º</l><r>°<s n="num"/></r></p></e>
+    <e r="LR"><p><l><b/>º</l><r>°<s n="num"/></r></p></e>
+
+    <e>       <p><l><b/>°C</l><r><b/>°C<s n="num"/></r></p></e>
+    <e r="LR"><p><l>°C</l>    <r><b/>°C<s n="num"/></r></p></e>
+    <e r="LR"><p><l><b/>ºC</l><r><b/>°C<s n="num"/></r></p></e>
+    <e r="LR"><p><l>ºC</l>    <r><b/>°C<s n="num"/></r></p></e>
+    <e r="LR"><p><l>°<b/>C</l><r><b/>°C<s n="num"/></r></p></e>
+    <e r="LR"><p><l><b/>º<b/>C</l><r><b/>°C<s n="num"/></r></p></e>
+    <e r="LR"><p><l>º<b/>C</l><r><b/>°C<s n="num"/></r></p></e>
+
+</pardef>
+
+<pardef n="ordinals">
+    <e>       <re>[1-9]</re><p><l>.º</l>          <r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+    <e>       <re>[1-9]</re><p><l>.ª</l>          <r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+    <e>       <re>[1-9]</re><p><l>.os</l>         <r><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+    <e>       <re>[1-9]</re><p><l>.as</l>         <r><s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+    <e>       <re>[1-9]+[0-9]+</re><p><l>.º</l>    <r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+    <e>       <re>[1-9]+[0-9]+</re><p><l>.ª</l>    <r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+    <e>       <re>[1-9]+[0-9]+</re><p><l>.os</l>   <r><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+    <e>       <re>[1-9]+[0-9]+</re><p><l>.as</l>   <r><s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+
+    <e r="LR"><re>[1-9]</re><p><l>º</l>           <r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="LR"><re>[1-9]</re><p><l>ª</l>           <r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="LR"><re>[1-9]</re><p><l>os</l>          <r><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="LR"><re>[1-9]</re><p><l>as</l>          <r><s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR"><re>[1-9]+[0-9]+</re><p><l>º</l>     <r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="LR"><re>[1-9]+[0-9]+</re><p><l>ª</l>     <r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="LR"><re>[1-9]+[0-9]+</re><p><l>os</l>    <r><s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="LR"><re>[1-9]+[0-9]+</re><p><l>as</l>    <r><s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+  
+</pardef>
+
+
+
 	<!-- SECTION: Punctuation -->      
-    <pardef n="numeros">
-      <e>       <re>[0-9]+</re><p><l></l><r><s n="num"/></r></p></e>
-      <e>       <re>[᱐᱑᱒᱓᱔᱕᱖᱗᱘᱙]+([.,][᱐᱑᱒᱓᱔᱕᱖᱗᱘᱙]+)?</re><p><l/><r><s n="num"/></r></p></e>
-      <e>       <re>([᱕᱖᱗᱘᱙]|[᱑᱒᱓᱔᱕᱖᱗᱘᱙][᱐᱑᱒᱓᱔᱕᱖᱗᱘᱙]+)</re><p><l><b/>ᱜᱚᱴᱟᱝ</l><r><s n="adj"/><s n="ord"/></r></p></e>
-      <e>       <re>[᱐᱑᱒᱓᱔᱕᱖᱗᱘᱙]+([.,][᱐᱑᱒᱓᱔᱕᱖᱗᱘᱙]+)?%</re><p><l></l><r><s n="num"/><s n="percent"/></r></p></e>
-    </pardef>
+
+<pardef n="numeros">
+    <e>       <re>[0-9]+([.,][0-9]+)?</re><par n="symbols"/></e>
+    <e>       <re>[0-9]+([.,][0-9]+)+</re><p><l></l><r><s n="num"/></r></p></e> <!--1.600.894-->
+</pardef>
+
+<pardef n="codes" c="CIF, carreteras, etc.">
+    <e>       <re>[0-9]+[A-Z]+|[A-Z]+[0-9]+|[0-9]+[A-Z]+[0-9]+|[A-Z]+[0-9]+[A-Z]+</re></e>
+</pardef>
+
+
 	
-	<pardef n="separa">
-      <e><re>[.\?;:!᱾᱿]</re><p><l/><r><s n="sent"/></r></p></e>
-    </pardef>
+<pardef n="separa">
+    <e>	      <re>[.\?;:!᱾᱿]</re><p><l/><r><s n="sent"/></r></p></e>
+</pardef>
 
-    <pardef n="guio">
-      <e><re>[—\-]+</re><p><l></l><r><s n="guio"/></r></p></e>
-    </pardef>
+<pardef n="separ">
+    <e>       <re>[¿¡]</re><p><l></l><r><s n="lquest"/></r></p></e>
+</pardef>
 
-    <pardef n="coma">
+<pardef n="guio">
+    <e>	      <re>[—\-]+</re><p><l></l><r><s n="guio"/></r></p></e>
+</pardef>
+
+<pardef n="apost">
+    <e>	      <re>'</re><p><l></l><r><s n="apos"/></r></p></e>
+</pardef>
+
+<pardef n="coma">
       <e><re>,</re><p><l></l><r><s n="cm"/></r></p></e>
-    </pardef>
+</pardef>
 
-    <pardef n="quotes">
+<pardef n="muchad">
+      <e><re>᱾</re><p><l></l><r><s n="muc"/></r></p></e>
+</pardef>
+
+<pardef n="quotes">
       <e><re>[«]+</re><p><l></l><r><s n="lquot"/></r></p></e>
       <e><re>[»]+</re><p><l></l><r><s n="rquot"/></r></p></e>
-    </pardef>
+</pardef>
 
-    <pardef n="paresq">
+<pardef n="paresq">
       <e><re>[\(\[]</re><p><l></l><r><s n="lpar"/></r></p></e>
-    </pardef>
+</pardef>
 
-    <pardef n="pardret">
+<pardef n="pardret">
       <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
-    </pardef>
+</pardef>
 
-   <pardef n="__abbr">
+<pardef n="__abbr">
 <!-- Rupee -->
       <e>     <p><l>रु</l><r>रु.<s n="abbr"/></r></p></e>
       <e>     <p><l>रु.</l><r>रु.<s n="abbr"/></r></p></e>
@@ -144,13 +226,18 @@
 	  <e>     <p><l>ᱰᱨ</l><r>ᱰᱨ.<s n="abbr"/></r></p></e>
 	  <e>     <p><l>ᱰᱨ.</l><r>ᱰᱨ.<s n="abbr"/></r></p></e>	  
 	  
-</pardef>		
+</pardef>
+		
 <pardef n="emails">
   <e>       <re>[a-z.]+@[a-z.]+</re><p><l></l><r><s n="num"/></r></p></e>
 </pardef>
 
 <pardef n="urls">
-  <e>       <re>((www.)[a-z\-]+[.][a-z]+)</re><p><l></l><r><s n="num"/></r></p></e>
+  <e>       <!--      <re>(www.|http://|https://|ftp://)[áéíóúàèìòùäëïöüñça-z0-9\-./]+[áéíóúàèìòùäëïöüñça-z0-9/]</re> --><re>(http://|https://|ftp://)?[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*(.[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*)*(.[a-z][a-z]|.aero|.asia|.biz|.cat|.com|.coop|.edu|.gov|.info|.int|.jobs|.mil|.mobi|.museum|.name|.net|.org|.pro|.tel|.travel)(/([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*/)*([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*)?)?</re><p><l></l><r><s n="web"/></r></p></e>
+</pardef>
+    
+<pardef n="ip">
+  <e>       <re>(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9])(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))</re><p><l></l><r><s n="web"/></r></p></e>
 </pardef>
 
 <!-- Affixation -->
@@ -178,7 +265,7 @@
       <e>     <p><l>ᱦᱮᱸ</l><r>ᱦᱮᱸ<s n="ij"/></r></p></e>
       <e>     <p><l>ᱮᱦᱮ</l><r>ᱮᱦᱮ<s n="ij"/></r></p></e>
       <e>     <p><l>ᱥᱟᱹᱨᱤ ᱜᱮ</l><r>ᱥᱟᱹᱨᱤ ᱜᱮ<s n="ij"/></r></p></e>     
-    </pardef>
+</pardef>
 
 		
 
@@ -195,17 +282,17 @@
 <!-- SECTION: Paradigm Nouns -->
 
 
-    <pardef n="ᱵᱤᱥᱩ__np">
+<pardef n="ᱵᱤᱥᱩ__np">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-    </pardef>
+</pardef>
  		
-	<pardef n="ᱥᱨᱤᱭᱟ__np">
+<pardef n="ᱥᱨᱤᱭᱟ__np">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    </pardef>
+</pardef>
 
-    <pardef n="ᱠᱤᱥᱠᱩ__np">
+<pardef n="ᱠᱤᱥᱠᱩ__np">
 	<e><p><l></l><r><s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
-    </pardef>
+</pardef>
 
 	<!-- Paradigms define ends here. 
     <pardef n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n">       
@@ -221,14 +308,14 @@
 </pardef>
 			
 -->
-    <pardef n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n">       
+<pardef n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n">       
        <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
        <e><p><l>ᱠᱚ</l><r><s n="n"/><s n="pl"/></r></p></e>
-    </pardef>
+</pardef>
 	
-    <pardef n="ᱵᱷᱟᱨᱚᱛ__np">
+<pardef n="ᱵᱷᱟᱨᱚᱛ__np">
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/></r></p></e>
-    </pardef>
+</pardef>
 
 <pardef n="nice/__adj">
   <e><p><l></l><r><s n="adj"/><s n="sint"/></r></p></e>
@@ -247,6 +334,20 @@
 
 <pardef n="e.g.__abbr">
   <e>       <p><l></l>          <r><s n="abbr"/></r></p></e>
+</pardef>
+
+<!--  Verb  -->
+<pardef n="ᱡᱚᱢ__vblex">
+  <e>       <p><l>ᱡᱚᱢ</l>       <r>ᱡᱚᱢ<s n="vblex"/><s n="inf"/></r></p></e>
+  <e>       <p><l>ᱡᱚᱢ</l>       <r>ᱡᱚᱢ<s n="vblex"/><s n="tv"/></r></p></e>
+  <e>       <p><l>ᱡᱚᱢ</l>       <r>ᱡᱚᱢ<s n="vblex"/><s n="imp"/></r></p></e>
+  <e>       <p><l>ᱡᱚᱢᱠᱮᱜᱟᱹᱧ</l>     <r>ᱡᱚᱢ<s n="vblex"/><s n="pp"/></r></p></e>
+  <e w="1"> <p><l>ᱡᱚᱢᱮᱫᱟᱭ</l>    <r>ᱡᱚᱢ<s n="vblex"/><s n="pprs"/></r></p></e>
+  <e w="3"> <p><l>ᱡᱚᱢᱮᱫᱟᱭ</l>    <r>ᱡᱚᱢ<s n="vblex"/><s n="ger"/></r></p></e>
+  <e w="2"> <p><l>ᱡᱚᱢᱮᱫᱟᱭ</l>    <r>ᱡᱚᱢ<s n="vblex"/><s n="subs"/></r></p></e>
+  <e>       <p><l>ᱡᱚᱢ</l>       <r>ᱡᱚᱢ<s n="vblex"/><s n="pres"/></r></p></e>
+  <e>       <p><l>ᱡᱚᱢᱟᱭ</l>      <r>ᱡᱚᱢ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ᱡᱚᱢᱠᱮᱜᱼᱟᱭ</l>       <r>ᱡᱚᱢ<s n="vblex"/><s n="past"/></r></p></e>
 </pardef>
 
 
@@ -3159,18 +3260,33 @@
 <e lm="ᱰᱟᱹᱝᱜᱽᱨᱤ"><i>ᱰᱟᱹᱝᱜᱽᱨᱤ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱞᱤᱞ"><i>ᱞᱤᱞ</i><par n="nice/__adj"/></e>
 <e lm="ᱱᱚᱶᱟ"><i>ᱱᱚᱶᱟ</i><par n="th/is__det"/></e>
+<e lm="ᱡᱚᱢ"><i></i><par n="ᱡᱚᱢ__vblex"/></e>
 
+</section>
+
+<section id="regexp" type="standard">
+<e>                      <par n="hour-digital"/></e>
+<e>                      <par n="numeros"/></e>
+<e>                      <par n="codes"/></e>
+<e>                      <par n="ordinals"/></e>
+<e>                      <par n="emails"/></e>
+<e>                      <par n="urls"/></e>
+<e>                      <par n="ip"/></e>
   </section>
 
-   <section id="final" type="inconditional">
-    <e><par n="coma"/></e>
-    <e><par n="separa"/></e>
-    <e><par n="guio"/></e>
-    <e><par n="numeros"/></e>
-    <e><par n="paresq"/></e>
-    <e><par n="pardret"/></e>
-    <e><par n="quotes"/></e>
-   </section>
+  <section id="final" type="inconditional">
+<e>                      <par n="separa"/></e>
+<e>                      <par n="coma"/></e>
+<e>                      <par n="muchad"/></e>
+<e>			 <par n="numeros"/></e>
+<e>			 <par n="guio"/></e>
+<e r="RL">               <par n="apost"/></e>
+<e>                      <par n="paresq"/></e>
+<e>                      <par n="pardret"/></e>
+<e>                      <par n="separ"/></e>
+<e>			 <par n="quotes"/></e>
+  </section>
+
 
 </dictionary>
 
