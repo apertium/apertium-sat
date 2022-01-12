@@ -370,13 +370,140 @@
   <e>       <p><l>ᱡᱚᱢᱠᱮᱜᱼᱟᱭ</l>       <r>ᱡᱚᱢ<s n="vblex"/><s n="past"/></r></p></e>
 </pardef>
 
+    <!-- SECTION: Conjunctions -->      
 
+    <pardef n="ᱟᱨ__cnjcoo">
+      <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+      
+    <!-- SECTION:  Sub-ordinating Conjunctions -->      
+    <pardef n="ᱡᱮ__cnjsub">
+      <e><p><l></l><r><s n="cnjsub"/></r></p></e>
+    </pardef>
+   	
+	<!-- SECTION:  Adverbial Conjunctions -->      
+	<pardef n="ᱪᱮᱫᱟᱜᱥᱮ__cnjadv">
+      <e><p><l></l><r><s n="cnjadv"/></r></p></e>
+    </pardef>  
+
+	<pardef n="ᱯᱩᱭᱞᱩ__adj">
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+   </pardef>
+
+
+	<pardef n="ᱯᱩᱭᱞᱩ/ᱭᱟᱱᱟᱜ__adj">
+      <e><p><l>ᱭᱟᱱᱟᱜ</l><r>ᱭᱟᱱᱟᱜ<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ᱭᱟᱱᱟᱜ</l><r>ᱭᱟᱱᱟᱜ<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ᱭᱟᱱᱟᱜ</l><r>ᱭᱟᱱᱟᱜ<s n="adj"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ᱭᱟᱱᱟᱜ</l><r>ᱭᱟᱱᱟᱜ<s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ᱭᱟᱱᱟᱜ</l><r>ᱭᱟᱱᱟᱜ<s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ᱭᱟᱱᱟᱜ</l><r>ᱭᱟᱱᱟᱜ<s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ᱭᱟᱱᱟᱜ</l><r>ᱭᱟᱱᱟᱜ<s n="adj"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>ᱭᱟᱱᱟᱜ</l><r>ᱭᱟᱱᱟᱜ<s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+   </pardef>
+   
+   
+     <pardef n="ᱨᱮᱭᱟᱜ__post">
+      <e><p><l></l><r><s n="post"/></r></p></e>
+    </pardef>  
+	
+	<pardef n="ᱟᱭᱢᱟ__det">
+		<e><p><l></l><r><s n="det"/><s n="ind"/><s n="obl"/><s n="mfn"/><s n="sg"/></r></p></e>
+    </pardef>
 
 	<!-- Paradigms define ends here. -->
     </pardefs>
 
   <section id="main" type="standard">
     <!-- Define entries within <e> here. -->
+
+	<!-- Conjunctions -->  
+
+<e lm="ᱟᱨᱵᱟᱝᱠᱷᱟᱱ"><i>ᱟᱨᱵᱟᱝᱠᱷᱟᱱ</i><par n="ᱟᱨ__cnjcoo"/></e>
+<e lm="ᱟᱨ"><i>ᱟᱨ</i><par n="ᱟᱨ__cnjcoo"/></e>
+<e lm="ᱥᱟᱶᱛᱮ"><i>ᱥᱟᱶᱛᱮ</i><par n="ᱟᱨ__cnjcoo"/></e>
+<e lm="ᱥᱟᱶ"><i>ᱥᱟᱶ</i><par n="ᱟᱨ__cnjcoo"/></e>
+<e lm="ᱟᱨᱵᱟᱝ"><i>ᱟᱨᱵᱟᱝ</i><par n="ᱟᱨ__cnjcoo"/></e>
+<e lm="ᱢᱮᱱᱠᱷᱟᱱ"><i>ᱢᱮᱱᱠᱷᱟᱱ</i><par n="ᱟᱨ__cnjcoo"/></e>
+
+	<!-- SECTION: Subordinating conjunctions -->
+	
+<e lm="ᱡᱮ"><i>ᱡᱮ</i><par n="ᱡᱮ__cnjsub"/></e>
+
+	<!-- Adverbial Conjunctions --> 
+
+<e lm="ᱤᱱᱟᱹ ᱛᱟᱭᱚᱢ"><i>ᱤᱱᱟᱹ<b/>ᱛᱟᱭᱚᱢ</i><par n="ᱪᱮᱫᱟᱜᱥᱮ__cnjadv"/></e>
+<e lm="ᱡᱩᱫᱤ"><i>ᱡᱩᱫᱤ</i><par n="ᱪᱮᱫᱟᱜᱥᱮ__cnjadv"/></e>
+<e lm="ᱚᱱᱟ ᱛᱮ"><i>ᱚᱱᱟ<b/>ᱛᱮ</i><par n="ᱪᱮᱫᱟᱜᱥᱮ__cnjadv"/></e>
+<e lm="ᱡᱟᱦᱟᱸ ᱫᱷᱟᱹᱵᱤᱡ"><i>ᱡᱟᱦᱟᱸ<b/>ᱫᱷᱟᱹᱵᱤᱡ</i><par n="ᱪᱮᱫᱟᱜᱥᱮ__cnjadv"/></e>
+<e lm="ᱪᱮᱫᱟᱜ ᱥᱮ"><i>ᱪᱮᱫᱟᱜ<b/>ᱥᱮ</i><par n="ᱪᱮᱫᱟᱜᱥᱮ__cnjadv"/></e>
+<e lm="ᱪᱟᱸᱦᱟᱸᱶ"><i>ᱪᱟᱸᱦᱟᱸᱶ</i><par n="ᱪᱮᱫᱟᱜᱥᱮ__cnjadv"/></e>
+<e lm="ᱪᱮᱫᱟᱜ ᱥᱮ"><i>ᱪᱮᱫᱟᱜ<b/>ᱥᱮ</i><par n="ᱪᱮᱫᱟᱜᱥᱮ__cnjadv"/></e>
+<e lm="ᱚᱱᱟᱛᱮ"><i>ᱚᱱᱟᱛᱮ</i><par n="ᱪᱮᱫᱟᱜᱥᱮ__cnjadv"/></e>
+<e lm="ᱡᱮᱢᱚᱱ"><i>ᱡᱮᱢᱚᱱ</i><par n="ᱪᱮᱫᱟᱜᱥᱮ__cnjadv"/></e>
+<e lm="ᱫᱟᱹᱭᱠᱟᱹ ᱞᱮᱠᱷᱟᱛᱮ"><i>ᱫᱟᱹᱭᱠᱟᱹ<b/>ᱞᱮᱠᱷᱟᱛᱮ</i><par n="ᱪᱮᱫᱟᱜᱥᱮ__cnjadv"/></e>
+<e lm="ᱟᱭ . ᱤ ."><i>ᱟᱭ<b/>.<b/>ᱤ<b/>.</i><par n="ᱪᱮᱫᱟᱜᱥᱮ__cnjadv"/></e>
+
+<!-- SECTION: Postpositions -->
+
+<e lm="ᱮ"><i>ᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱦᱤᱥᱟᱹᱵ ᱛᱮ"><i>ᱦᱤᱥᱟᱹᱵ<b/>ᱛᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱛᱮ"><i>ᱛᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱨᱮᱭᱟᱜ"><i>ᱨᱮᱭᱟᱜ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱨᱮ"><i>ᱨᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱥᱩᱨ ᱛᱮ"><i>ᱥᱩᱨ<b/>ᱛᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱥᱩᱨ"><i>ᱥᱩᱨ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱥᱩᱨ ᱨᱮ"><i>ᱥᱩᱨ<b/>ᱨᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱨᱮᱭᱟᱜ ᱥᱩᱨᱠᱚᱨᱮ"><i>ᱨᱮᱭᱟᱜ<b/>ᱥᱩᱨᱠᱚᱨᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱪᱮᱛᱟᱱ ᱨᱮ"><i>ᱪᱮᱛᱟᱱ<b/>ᱨᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱛᱮ"><i>ᱛᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱞᱟᱹᱜᱤᱫ"><i>ᱞᱟᱹᱜᱤᱫ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱠᱷᱟᱹᱛᱤᱨ"><i>ᱠᱷᱟᱹᱛᱤᱨ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱪᱮᱛᱟᱱ"><i>ᱪᱮᱛᱟᱱ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱨᱮ"><i>ᱨᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱠᱷᱚᱱ"><i>ᱠᱷᱚᱱ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱥᱟᱶ"><i>ᱥᱟᱶ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱥᱮᱫ"><i>ᱥᱮᱫ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱨᱮᱭᱟᱜ ᱵᱟᱵᱚᱛ ᱨᱮ"><i>ᱨᱮᱭᱟᱜ<b/>ᱵᱟᱵᱚᱛ<b/>ᱨᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱞᱟᱹᱜᱤᱫ ᱛᱮ"><i>ᱞᱟᱹᱜᱤᱫ<b/>ᱛᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱨᱮᱭᱟᱜ ᱥᱤᱫᱷᱟᱹ ᱨᱮ"><i>ᱨᱮᱭᱟᱜ<b/>ᱥᱤᱫᱷᱟᱹ<b/>ᱨᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱥᱟᱶ ᱛᱮ"><i>ᱥᱟᱶ<b/>ᱛᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱤᱱᱟᱹ ᱛᱟᱭᱚᱢ"><i>ᱤᱱᱟᱹ<b/>ᱛᱟᱭᱚᱢ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱨᱮᱭᱟᱜ ᱵᱤᱨᱩᱫᱷ"><i>ᱨᱮᱭᱟᱜ<b/>ᱵᱤᱨᱩᱫᱷ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱨᱮᱭᱟᱜ ᱠᱷᱤᱞᱟᱹᱯᱷ"><i>ᱨᱮᱭᱟᱜ<b/>ᱠᱷᱤᱞᱟᱹᱯᱷ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱵᱷᱤᱛᱨᱭ ᱨᱮ"><i>ᱵᱷᱤᱛᱨᱭ<b/>ᱨᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱞᱟᱛᱟᱨ"><i>ᱞᱟᱛᱟᱨ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱞᱮᱠᱷᱟ ᱛᱮ"><i>ᱞᱮᱠᱷᱟ<b/>ᱛᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱥᱟᱶᱼᱥᱟᱶ ᱛᱮ"><i>ᱥᱟᱶᱼᱥᱟᱶ<b/>ᱛᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱥᱟᱶᱛᱮ"><i>ᱥᱟᱶᱛᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱨᱮᱭᱟᱜ ᱛᱟᱭᱚᱢ"><i>ᱨᱮᱭᱟᱜ<b/>ᱛᱟᱭᱚᱢ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱨᱮᱭᱟᱜ ᱞᱟᱛᱟᱨ"><i>ᱨᱮᱭᱟᱜ<b/>ᱞᱟᱛᱟᱨ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱟᱜ ᱥᱩᱨ"><i>ᱟᱜ<b/>ᱥᱩᱨ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱦᱤᱥᱟᱹᱵ ᱛᱮ"><i>ᱦᱤᱥᱟᱹᱵ<b/>ᱛᱮ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱚᱠᱛᱚ ᱡᱷᱚᱜ"><i>ᱚᱠᱛᱚ<b/>ᱡᱷᱚᱜ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱩᱱ ᱡᱷᱚᱜ"><i>ᱩᱱ<b/>ᱡᱷᱚᱜ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱨᱮᱭᱟᱜ ᱠᱟᱨᱚᱬ"><i>ᱨᱮᱭᱟᱜ<b/>ᱠᱟᱨᱚᱬ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱨᱮᱭᱟᱜ ᱠᱟᱨᱚᱬ"><i>ᱨᱮᱭᱟᱜ<b/>ᱠᱟᱨᱚᱬ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+<e lm="ᱛᱟᱭᱚᱢ"><i>ᱛᱟᱭᱚᱢ</i><par n="ᱨᱮᱭᱟᱜ__post"/></e>
+
+<!-- SECTION: Determiners -->
+
+<e lm="ᱤᱧᱟᱜ"><i>ᱤᱧᱟᱜ</i><par n="ᱟᱭᱢᱟ__det"/></e>
+<e lm="ᱢᱤᱫᱴᱟᱹᱝ"><i>ᱢᱤᱫᱴᱟᱹᱝ</i><par n="ᱟᱭᱢᱟ__det"/></e>
+<e lm="ᱞᱮᱠᱷᱟ"><i>ᱞᱮᱠᱷᱟ</i><par n="ᱟᱭᱢᱟ__det"/></e>
+<e lm="ᱮᱴᱟᱜ"><i>ᱮᱴᱟᱜ</i><par n="ᱟᱭᱢᱟ__det"/></e>
+<e lm="ᱟᱭᱢᱟ"><i>ᱟᱭᱢᱟ</i><par n="ᱟᱭᱢᱟ__det"/></e>
+<e lm="ᱰᱷᱮᱨ"><i>ᱰᱷᱮᱨ</i><par n="ᱟᱭᱢᱟ__det"/></e>
+<e lm="ᱵᱟᱨᱭᱟ"><i>ᱵᱟᱨᱭᱟ</i><par n="ᱟᱭᱢᱟ__det"/></e>
+<e lm="ᱵᱟᱨ"><i>ᱵᱟᱨ</i><par n="ᱟᱭᱢᱟ__det"/></e>
+
 
 	<!-- Proper Nouns Male-->
 
@@ -3308,7 +3435,6 @@
 <e lm="ᱜᱮᱨᱩᱟ"><i>ᱜᱮᱨᱩᱟ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱵᱮᱱᱜᱩᱱᱤ"><i>ᱵᱮᱱᱜᱩᱱᱤ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 
-
 <!-- SECTION: Numerals -->
 
 <e lm="ᱢᱤᱫ ᱥᱟᱭ">       <i>ᱢᱤᱫ<b/>ᱥᱟᱭ</i><par n="ᱢᱤᱞᱤᱭᱚᱱ__num"/></e>
@@ -3429,15 +3555,227 @@
 <e lm="XXI">             <i>XXI</i><par n="ᱢᱤᱞᱤᱭᱚᱱ__num"/></e>
 <e lm="XXII">            <i>XXII</i><par n="ᱢᱤᱞᱤᱭᱚᱱ__num"/></e>
 
+<!-- Ordinals -->
+
+<e lm="ᱮᱛᱦᱚᱵ"><i>ᱮᱛᱦᱚᱵ</i><par n="ᱯᱩᱭᱞᱩ__adj"/></e>
+<e lm="ᱫᱚᱥᱟᱨ"><i>ᱫᱚᱥᱟᱨ</i><par n="ᱯᱩᱭᱞᱩ__adj"/></e>
+<e lm="ᱛᱮᱥᱟᱨ"><i>ᱛᱮᱥᱟᱨ</i><par n="ᱯᱩᱭᱞᱩ__adj"/></e>
+<e lm="ᱯᱩᱱᱟᱹᱜ"><i>ᱯᱩᱱᱟᱹᱜ</i><par n="ᱯᱩᱭᱞᱩ__adj"/></e>
+<e lm="ᱢᱚᱬᱮᱭᱟᱱᱟᱜ"><i>ᱢᱚᱬᱮᱭᱟᱱᱟᱜ</i><par n="ᱯᱩᱭᱞᱩ/ᱭᱟᱱᱟᱜ__adj"/></e>
+<e lm="ᱛᱩᱨᱩᱭᱟᱱᱟᱜ"><i>ᱛᱩᱨᱩᱭᱟᱱᱟᱜ</i><par n="ᱯᱩᱭᱞᱩ/ᱭᱟᱱᱟᱜ__adj"/></e>
+<e lm="ᱮᱭᱮᱭᱟᱱᱟᱜ"><i>ᱮᱭᱮᱭᱟᱱᱟᱜ</i><par n="ᱯᱩᱭᱞᱩ/ᱭᱟᱱᱟᱜ__adj"/></e>
+<e lm="ᱤᱨᱟᱹᱞᱟᱱᱟᱜ"><i>ᱤᱨᱟᱹᱞᱭᱟᱱᱟᱜ</i><par n="ᱯᱩᱭᱞᱩ/ᱭᱟᱱᱟᱜ__adj"/></e>
+<e lm="ᱟᱨᱮᱭᱟᱱᱟᱜ"><i>ᱟᱨᱮᱭᱭᱟᱱᱟᱜ</i><par n="ᱯᱩᱭᱞᱩ/ᱭᱟᱱᱟᱜ__adj"/></e>
+<e lm="ᱜᱮᱞᱟᱱᱟᱜ"><i>ᱜᱮᱞᱭᱟᱱᱟᱜ</i><par n="ᱯᱩᱭᱞᱩ/ᱭᱟᱱᱟᱜ__adj"/></e>
+
+<!-- SECTION: Abbreviation -->
+<e lm="ᱮᱥᱭ"><i>ᱮᱥᱭ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱤ"><i>ᱮᱥᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮ.ᱰᱤ."><i>ᱮ.ᱰᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱵᱤᱵᱤᱟᱨ."><i>ᱮᱵᱤᱵᱤᱟᱨ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱡᱤ"><i>ᱮᱡᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱮᱞ"><i>ᱮᱮᱞ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱮᱢ"><i>ᱮᱮᱢ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱮᱢᱭᱩ"><i>ᱮᱮᱢᱭᱩ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱯᱤ."><i>ᱮᱯᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱯᱤᱯᱤᱟᱨᱳᱮᱠᱥ."><i>ᱮᱯᱤᱯᱤᱟᱨᱳᱮᱠᱥ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱯᱤᱟᱨ."><i>ᱮᱯᱤᱟᱨ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱯᱤᱴᱤ."><i>ᱮᱯᱤᱴᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱯᱤᱯᱤᱴᱤ."><i>ᱮᱯᱤᱯᱤᱴᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱟᱨ"><i>ᱮᱟᱨ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱮᱥ"><i>ᱮᱮᱥ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱴᱤ"><i>ᱮᱴᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱭᱩ"><i>ᱮᱭᱩ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱭᱩᱡᱤ."><i>ᱮᱭᱩᱡᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱵᱷᱤᱤ."><i>ᱮᱵᱷᱤᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱵᱤ"><i>ᱵᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱵᱤᱮ"><i>ᱵᱤᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱵᱤᱮ"><i>ᱵᱤᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱵᱤᱤ"><i>ᱵᱤᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱵᱤᱮᱪᱷ"><i>ᱵᱤᱮᱪᱷ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱵᱤᱟᱭ"><i>ᱵᱤᱟᱭ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱵᱤᱠᱮ"><i>ᱵᱤᱠᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱵᱤᱮᱞᱵᱷᱤᱰᱤ."><i>ᱵᱤᱮᱞᱵᱷᱤᱰᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱵᱤᱟᱨ"><i>ᱵᱤᱟᱨ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤ"><i>ᱥᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱮ"><i>ᱥᱤᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱮᱮᱞᱟᱭᱮᱯᱷ."><i>ᱥᱤᱮᱮᱞᱟᱭᱮᱯᱷ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱤ"><i>ᱥᱤᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱰᱤ"><i>ᱥᱤᱰᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱮᱯᱷ"><i>ᱥᱤᱮᱯᱷ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱮᱯᱷ."><i>ᱥᱤᱮᱯᱷ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱮᱞ"><i>ᱥᱤᱮᱞ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱮᱪᱷᱮᱯᱤ."><i>ᱥᱤᱮᱪᱷᱮᱯᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱮᱢ"><i>ᱥᱤᱮᱢ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱮᱢ"><i>ᱥᱤᱮᱢ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱳ"><i>ᱥᱤᱳ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱳ."><i>ᱥᱤᱳ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱳ."><i>ᱥᱤᱳ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱟᱨ"><i>ᱥᱤᱟᱨ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱮᱥ"><i>ᱥᱤᱮᱥ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱭᱩ"><i>ᱥᱤᱭᱩ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱥᱤᱣᱟᱭᱮᱱ."><i>ᱥᱤᱣᱟᱭᱮᱱ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱰᱤ.ᱳ.ᱵᱤ."><i>ᱰᱤ.ᱳ.ᱵᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱰᱤᱵᱤ"><i>ᱰᱤᱵᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱰᱤᱤᱥᱤ."><i>ᱰᱤᱤᱥᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱰᱤᱤᱯᱤᱴᱤ."><i>ᱰᱤᱤᱯᱤᱴᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱰᱤᱟᱨ."><i>ᱰᱤᱟᱨ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱰᱤᱣᱟᱭ"><i>ᱰᱤᱣᱟᱭ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤ. ᱡᱤ."><i>ᱤ. ᱡᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤ.ᱡᱤ."><i>ᱤ.ᱡᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤᱰᱤ."><i>ᱤᱰᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤᱯᱤ."><i>ᱤᱯᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤᱟᱨ"><i>ᱤᱟᱨ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤᱮᱥ"><i>ᱤᱮᱥ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤᱮᱥᱯᱤ."><i>ᱤᱮᱥᱯᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤᱮᱥᱴᱤ."><i>ᱤᱮᱥᱴᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤᱮᱥᱴᱤᱮᱵᱤ."><i>ᱤᱮᱥᱴᱤᱮᱵᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤᱴᱤᱮ"><i>ᱤᱴᱤᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤᱴᱤᱥᱤ."><i>ᱤᱴᱤᱥᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤᱭᱩ"><i>ᱤᱭᱩ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤᱮᱠᱥ."><i>ᱤᱮᱠᱥ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤᱮᱠᱥ."><i>ᱤᱮᱠᱥ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱤᱮᱠᱥᱥᱤᱮᱞ."><i>ᱤᱮᱠᱥᱥᱤᱮᱞ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱯᱷ"><i>ᱮᱯᱷ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱯᱷ."><i>ᱮᱯᱷ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱯᱷᱤ"><i>ᱮᱯᱷᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱯᱷᱤᱵᱤ."><i>ᱮᱯᱷᱤᱵᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱯᱷᱤᱮᱢ."><i>ᱮᱯᱷᱤᱮᱢ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱯᱷᱮᱢ"><i>ᱮᱯᱷᱮᱢ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱯᱷᱟᱨ"><i>ᱮᱯᱷᱟᱨ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱯᱷᱴᱤ"><i>ᱮᱯᱷᱴᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱡᱤ"><i>ᱡᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱡᱤᱮ"><i>ᱡᱤᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱡᱤᱮᱮᱞ"><i>ᱡᱤᱮᱮᱞ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱡᱤᱰᱤ"><i>ᱡᱤᱰᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱡᱤᱤ"><i>ᱡᱤᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱪᱷ"><i>ᱮᱪᱷ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱪᱷᱤ"><i>ᱮᱪᱷᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱪᱷᱮᱯᱷ"><i>ᱮᱪᱷᱮᱯᱷ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱪᱷᱡᱤ"><i>ᱮᱪᱷᱡᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱪᱷᱳ"><i>ᱮᱪᱷᱳ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱪᱷᱯᱤ"><i>ᱮᱪᱷᱯᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱪᱷᱮᱥ"><i>ᱮᱪᱷᱮᱥ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱭ"><i>ᱟᱭ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱭ.ᱤ."><i>ᱟᱭ.ᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱭᱮᱱ"><i>ᱟᱭᱮᱱ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱭᱮᱱᱥᱤᱮᱞ."><i>ᱟᱭᱮᱱᱥᱤᱮᱞ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱭᱟᱨ"><i>ᱟᱭᱟᱨ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱨᱮᱞ"><i>ᱟᱨᱮᱞ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱡᱮᱮᱮᱱ."><i>ᱡᱮᱮᱮᱱ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱡᱮᱰᱤ"><i>ᱡᱮᱰᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱡᱮᱭᱩᱮᱱ."><i>ᱡᱮᱭᱩᱮᱱ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱠᱮ"><i>ᱠᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱠᱮᱡᱤ"><i>ᱠᱮᱡᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱠᱮᱡᱮ"><i>ᱠᱮᱡᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱠᱮᱟᱨ"><i>ᱠᱮᱟᱨ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱞᱮᱴᱤ."><i>ᱮᱞᱮᱴᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱞᱵᱤ"><i>ᱮᱞᱵᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱞᱵᱤ."><i>ᱮᱞᱵᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱞᱮ"><i>ᱮᱞᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱞᱟᱭ"><i>ᱮᱞᱟᱭ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱞᱮᱱ."><i>ᱮᱞᱮᱱ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱞᱟᱨ"><i>ᱮᱞᱟᱨ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱞᱴᱤᱰᱤ."><i>ᱮᱞᱴᱤᱰᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱞᱭᱩ"><i>ᱮᱞᱭᱩ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱯᱤ"><i>ᱯᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢ"><i>ᱮᱢ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢ"><i>ᱮᱢ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢ.ᱮ."><i>ᱮᱢ.ᱮ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢ.ᱰᱤ."><i>ᱮᱢ.ᱰᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢᱮᱮᱥᱥᱤ."><i>ᱮᱢᱮᱮᱥᱥᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢᱰᱤ"><i>ᱮᱢᱰᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢᱡᱤ"><i>ᱮᱢᱡᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢᱡᱤ"><i>ᱮᱢᱡᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢᱟᱭᱮᱞᱮᱞ."><i>ᱮᱢᱟᱭᱮᱞᱮᱞ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢᱟᱭᱮᱱ."><i>ᱮᱢᱟᱭᱮᱱ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢᱟᱭᱮᱥᱥᱤ."><i>ᱮᱢᱟᱭᱮᱥᱥᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢᱮᱞ"><i>ᱮᱢᱮᱞ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢᱮᱱ"><i>ᱮᱢᱮᱱ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢᱳ"><i>ᱮᱢᱳ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢᱳᱮᱞ"><i>ᱮᱢᱳᱮᱞ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱢᱮᱥᱡᱤ"><i>ᱮᱢᱮᱥᱡᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱱ"><i>ᱮᱱ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱱ/ᱮ"><i>ᱮᱱ/ᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱱᱮ"><i>ᱮᱱᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱱᱵᱤ."><i>ᱮᱱᱵᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱱᱵᱤ"><i>ᱮᱱᱵᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱱᱰᱤ"><i>ᱮᱱᱰᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱱᱤ"><i>ᱮᱱᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱱᱟᱭ"><i>ᱮᱱᱟᱭ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱱᱮᱢ"><i>ᱮᱱᱮᱢ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱱᱳ"><i>ᱮᱱᱳ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱱᱳ."><i>ᱮᱱᱳ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱱᱳᱵᱷᱤ."><i>ᱮᱱᱳᱵᱷᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱱᱯᱤ"><i>ᱮᱱᱯᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱳ"><i>ᱳ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱳᱵᱤ."><i>ᱳᱵᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱳᱥᱤᱴᱤ."><i>ᱳᱥᱤᱴᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱳᱮᱥ"><i>ᱳᱮᱥ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱳᱡᱮᱰᱮᱥ."><i>ᱳᱡᱮᱰᱮᱥ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱯᱤ"><i>ᱯᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱯᱤ."><i>ᱯᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱯᱤ.ᱮᱥ."><i>ᱯᱤ.ᱮᱥ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱯᱤᱮ"><i>ᱯᱤᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱯᱤᱵᱤ"><i>ᱯᱤᱵᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱯᱤᱰᱤ"><i>ᱯᱤᱰᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱯᱤᱮᱢ"><i>ᱯᱤᱮᱢ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱯᱤᱳ"><i>ᱯᱤᱳ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱯᱤᱟᱨ"><i>ᱯᱤᱟᱨ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱯᱤᱴᱤ"><i>ᱯᱤᱴᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱯᱤᱭᱩ"><i>ᱯᱤᱭᱩ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱨᱮ"><i>ᱟᱨᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱨᱵᱤ"><i>ᱟᱨᱵᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱨᱰᱤ."><i>ᱟᱨᱰᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱨᱤ"><i>ᱟᱨᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱨᱤᱮᱯᱷ."><i>ᱟᱨᱤᱮᱯᱷ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱨᱤᱮᱥᱯᱤ."><i>ᱟᱨᱤᱮᱥᱯᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱨᱤᱵᱷᱤ."><i>ᱟᱨᱤᱵᱷᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱨᱮᱯᱷ"><i>ᱟᱨᱮᱯᱷ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱨᱮᱪᱷ"><i>ᱟᱨᱮᱪᱷ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱨᱮᱱ"><i>ᱟᱨᱮᱱ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱟᱨᱭᱩ"><i>ᱟᱨᱭᱩ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥ"><i>ᱮᱥ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱵᱤ"><i>ᱮᱥᱵᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱥᱤ"><i>ᱮᱥᱥᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱤ"><i>ᱮᱥᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱤᱯᱤ."><i>ᱮᱥᱤᱯᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱤᱯᱤᱴᱤ."><i>ᱮᱥᱤᱯᱤᱴᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱡᱤ"><i>ᱮᱥᱡᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱟᱭ"><i>ᱮᱥᱟᱭ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱟᱭ"><i>ᱮᱥᱟᱭ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱮᱢ"><i>ᱮᱥᱮᱢ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱮᱱ"><i>ᱮᱥᱮᱱ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱠᱭᱩ."><i>ᱮᱥᱠᱭᱩ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱠᱭᱩᱟᱨᱴᱤ"><i>ᱮᱥᱠᱭᱩᱟᱨᱴᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱟᱨ"><i>ᱮᱥᱟᱨ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱥᱴᱤ."><i>ᱮᱥᱴᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱴᱤᱵᱤ"><i>ᱴᱤᱵᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱴᱤᱤᱮᱢᱯᱤ."><i>ᱴᱤᱤᱮᱢᱯᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱴᱤᱮᱢ"><i>ᱴᱤᱮᱢ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱴᱤᱮ"><i>ᱴᱤᱮ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱴᱤᱥᱤ"><i>ᱴᱤᱥᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱴᱤᱮᱪᱷ"><i>ᱴᱤᱮᱪᱷ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱴᱤᱮᱪᱷᱳᱭᱩᱮᱥ."><i>ᱴᱤᱮᱪᱷᱳᱭᱩᱮᱥ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱴᱤᱟᱭ"><i>ᱴᱤᱟᱭ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱴᱤᱮᱞ"><i>ᱴᱤᱮᱞ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱭᱩ"><i>ᱭᱩ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱵᱷᱤ"><i>ᱵᱷᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱰᱟᱹᱵᱞᱩ"><i>ᱰᱟᱹᱵᱞᱩ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱰᱟᱹᱵᱞᱩ.ᱟᱨ.ᱴᱤ."><i>ᱰᱟᱹᱵᱞᱩ.ᱟᱨ.ᱴᱤ.</i><par n="e.g.__abbr"/></e>
+<e lm="ᱮᱠᱥᱤ"><i>ᱮᱠᱥᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱣᱟᱭ"><i>ᱣᱟᱭ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱣᱟᱭᱵᱤ"><i>ᱣᱟᱭᱵᱤ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱡᱮᱰᱮᱱ"><i>ᱡᱮᱰᱮᱱ</i><par n="e.g.__abbr"/></e>
+<e lm="ᱡᱮᱰᱟᱨ"><i>ᱡᱮᱰᱟᱨ</i><par n="e.g.__abbr"/></e>
 
 
 <!-- SECTION: Uncategorised Words -->
-<e lm="ᱮᱥᱭ"><i>ᱮᱥᱭ</i><par n="e.g.__abbr"/></e>
+
 <e lm="ᱚᱲᱟᱜ"><i>ᱚᱲᱟᱜ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱢᱮᱨᱚᱢ"><i>ᱢᱮᱨᱚᱢ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱰᱟᱹᱝᱜᱽᱨᱤ"><i>ᱰᱟᱹᱝᱜᱽᱨᱤ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱞᱤᱞ"><i>ᱞᱤᱞ</i><par n="nice/__adj"/></e>
-<e lm="ᱱᱚᱶᱟ"><i>ᱱᱚᱶᱟ</i><par n="th/is__det"/></e>
 <e lm="ᱡᱚᱢ"><i></i><par n="ᱡᱚᱢ__vblex"/></e>
 
 </section>
