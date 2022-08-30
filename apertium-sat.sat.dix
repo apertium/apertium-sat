@@ -215,6 +215,17 @@
       <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
 </pardef>
 
+
+   <pardef n="ABC__np">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+</pardef>
+
+
 <pardef n="__abbr">
 <!-- Rupee -->
       <e>     <p><l>रु</l><r>रु.<s n="abbr"/></r></p></e>
@@ -339,7 +350,7 @@
 </pardef>
 	
 <pardef n="ᱵᱷᱟᱨᱚᱛ__np">
-      <e><p><l></l><r><s n="np"/><s n="top"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
 
 <pardef n="nice/__adj">
@@ -3442,6 +3453,7 @@
 <e lm="ᱦᱟ.ᱨᱤᱭᱟ.ᱲ"><i>ᱦᱟ.ᱨᱤᱭᱟ.ᱲ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱯᱩᱸᱰ"><i>ᱯᱩᱸᱰ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱥᱟᱥᱟᱝ"><i>ᱥᱟᱥᱟᱝ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+<e lm="ᱥᱟᱱᱛᱨᱟ"><i>ᱥᱟᱱᱛᱨᱟ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱢᱟᱴᱤᱭᱟᱲ"><i>ᱢᱟᱴᱤᱭᱟᱲ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱜᱮᱨᱩᱟ"><i>ᱜᱮᱨᱩᱟ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱵᱮᱱᱜᱩᱱᱤ"><i>ᱵᱮᱱᱜᱩᱱᱤ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
@@ -3667,7 +3679,7 @@
 <e lm="ᱮᱪᱷᱳ"><i>ᱮᱪᱷᱳ</i><par n="e.g.__abbr"/></e>
 <e lm="ᱮᱪᱷᱯᱤ"><i>ᱮᱪᱷᱯᱤ</i><par n="e.g.__abbr"/></e>
 <e lm="ᱮᱪᱷᱮᱥ"><i>ᱮᱪᱷᱮᱥ</i><par n="e.g.__abbr"/></e>
-<e lm="ᱟᱭ"><i>ᱟᱭ</i><par n="e.g.__abbr"/></e>
+<e r="RL" lm="ᱟᱭ"><i>ᱟᱭ</i><par n="e.g.__abbr"/></e>
 <e lm="ᱟᱭ.ᱤ."><i>ᱟᱭ.ᱤ.</i><par n="e.g.__abbr"/></e>
 <e lm="ᱟᱭᱮᱱ"><i>ᱟᱭᱮᱱ</i><par n="e.g.__abbr"/></e>
 <e lm="ᱟᱭᱮᱱᱥᱤᱮᱞ."><i>ᱟᱭᱮᱱᱥᱤᱮᱞ.</i><par n="e.g.__abbr"/></e>
@@ -3779,6 +3791,346 @@
 <e lm="ᱣᱟᱭᱵᱤ"><i>ᱣᱟᱭᱵᱤ</i><par n="e.g.__abbr"/></e>
 <e lm="ᱡᱮᱰᱮᱱ"><i>ᱡᱮᱰᱮᱱ</i><par n="e.g.__abbr"/></e>
 <e lm="ᱡᱮᱰᱟᱨ"><i>ᱡᱮᱰᱟᱨ</i><par n="e.g.__abbr"/></e>
+
+<!-- SECTION: Company -->
+
+    <e lm="ACT" a="eleka"><i>ACT</i><par n="ABC__np"/></e>
+    <e lm="Urdaibai" a="eleka"><i>Urdaibai</i><par n="ABC__np"/></e>
+    <e lm="Hondarribia" a="eleka"><i>Hondarribia</i><par n="ABC__np"/></e>
+    <e lm="Orio" a="eleka"><i>Orio</i><par n="ABC__np"/></e>
+    <e lm="Zarautz" a="eleka"><i>Zarautz</i><par n="ABC__np"/></e>
+    <e lm="Pasai San Pedro" a="eleka"><i>Pasai<b/>San<b/>Pedro</i><par n="ABC__np"/></e>
+    <e lm="Laredo" a="eleka"><i>Laredo</i><par n="ABC__np"/></e>
+    <e lm="Orioko Txanpa" a="eleka"><i>Orioko<b/>Txanpa</i><par n="ABC__np"/></e>
+    <e lm="Donibane" a="eleka"><i>Donibane</i><par n="ABC__np"/></e>
+    <e lm="Pedreña" a="eleka"><i>Pedreña</i><par n="ABC__np"/></e>
+    <e lm="Trintxerpe" a="eleka"><i>Trintxerpe</i><par n="ABC__np"/></e>
+    <e lm="Bermeo" a="eleka"><i>Bermeo</i><par n="ABC__np"/></e>
+    <e lm="Zumaia" a="eleka"><i>Zumaia</i><par n="ABC__np"/></e>
+    <e lm="Umpro" a="eleka"><i>Umpro</i><par n="ABC__np"/></e>
+    <e lm="Urdiales" a="eleka"><i>Urdiales</i><par n="ABC__np"/></e>
+    <e lm="Arkote" a="eleka"><i>Arkote</i><par n="ABC__np"/></e>
+    <e lm="Candy" a="eleka"><i>Candy</i><par n="ABC__np"/></e>
+    <e lm="Avia" a="eleka"><i>Avia</i><par n="ABC__np"/></e>
+    <e lm="Talaiberri Txakolindegia" a="eleka"><i>Talaiberri<b/>Txakolindegia</i><par n="ABC__np"/></e>
+    <e lm="Laredo RC" a="eleka"><i>Laredo<b/>RC</i><par n="ABC__np"/></e>
+    <e lm="Isuntza" a="eleka"><i>Isuntza</i><par n="ABC__np"/></e>
+    <e lm="Samertolameu" a="eleka"><i>Samertolameu</i><par n="ABC__np"/></e>
+    <e lm="Carglass" a="eleka"><i>Carglass</i><par n="ABC__np"/></e>
+    <e lm="Pasaia" a="eleka"><i>Pasaia</i><par n="ABC__np"/></e>
+    <e lm="Iberdrola" a="eleka"><i>Iberdrola</i><par n="ABC__np"/></e>
+    <e lm="Tirán" a="eleka"><i>Tirán</i><par n="ABC__np"/></e>
+    <e lm="Tostartean" a="eleka"><i>Tostartean</i><par n="ABC__np"/></e>
+    <e lm="Grafilur" a="eleka"><i>Grafilur</i><par n="ABC__np"/></e>
+    <e lm="Pasquier" a="eleka"><i>Pasquier</i><par n="ABC__np"/></e>
+    <e lm="Euskadi Irratia" a="eleka"><i>Euskadi<b/>Irratia</i><par n="ABC__np"/></e>
+    <e lm="Arraun Elkartea" a="eleka"><i>Arraun<b/>Elkartea</i><par n="ABC__np"/></e>
+    <e lm="pasaiako portuko" a="eleka"><i>pasaiako<b/>portuko</i><par n="ABC__np"/></e>
+    <e lm="getxoko estropaden" a="eleka"><i>getxoko<b/>estropaden</i><par n="ABC__np"/></e>
+    <e lm="pasaiako portuko ikurriña" a="eleka"><i>pasaiako<b/>portuko<b/>ikurriña</i><par n="ABC__np"/></e>
+    <e lm="Zumaiako Arraun Elkartea" a="eleka"><i>Zumaiako<b/>Arraun<b/>Elkartea</i><par n="ABC__np"/></e>
+    <e lm="Zumaiako" a="eleka"><i>Zumaiako</i><par n="ABC__np"/></e>
+    <e lm="Naturhouse" a="eleka"><i>Naturhouse</i><par n="ABC__np"/></e>
+    <e lm="Naturhouse Castro" a="eleka"><i>Naturhouse<b/>Castro</i><par n="ABC__np"/></e>
+    <e lm="Astillero" a="eleka"><i>Astillero</i><par n="ABC__np"/></e>
+    <e lm="Plentziako" a="eleka"><i>Plentziako</i><par n="ABC__np"/></e>
+    <e lm="kofradiaren" a="eleka"><i>kofradiaren</i><par n="ABC__np"/></e>
+    <e lm="Relax" a="eleka"><i>Relax</i><par n="ABC__np"/></e>
+    <e lm="Hondarribiko estropadak" a="eleka"><i>Hondarribiko<b/>estropadak</i><par n="ABC__np"/></e>
+    <e lm="Zarauzko estropadak" a="eleka"><i>Zarauzko<b/>estropadak</i><par n="ABC__np"/></e>
+    <e lm="Xunta de Galicia" a="eleka"><i>Xunta<b/>de<b/>Galicia</i><par n="ABC__np"/></e>
+    <e lm="Agencia Mundial Antidopaje" a="eleka"><i>Agencia<b/>Mundial<b/>Antidopaje</i><par n="ABC__np"/></e>
+    <e lm="Agencia Estatal Antidopaje" a="eleka"><i>Agencia<b/>Estatal<b/>Antidopaje</i><par n="ABC__np"/></e>
+    <e lm="Altuna" a="eleka"><i>Altuna</i><par n="ABC__np"/></e>
+    <e lm="bandeira cidade riveira" a="eleka"><i>bandeira<b/>cidade<b/>riveira</i><par n="ABC__np"/></e>
+    <e lm="bandeira cidade de riveira" a="eleka"><i>bandeira<b/>cidade<b/>de<b/>riveira</i><par n="ABC__np"/></e>
+    <e lm="Eibar" a="eleka"><i>Eibar</i><par n="ABC__np"/></e>
+    <e lm="Uria" a="eleka"><i>Uria</i><par n="ABC__np"/></e>
+    <e lm="Servicristal"><i>Servicristal</i><par n="ABC__np"/></e>
+    <e lm="Bandera Flaviobriga" a="eleka"><i>Bandera<b/>Flaviobriga</i><par n="ABC__np"/></e>
+    <e lm="Euskotren" a="eleka"><i>Euskotren</i><par n="ABC__np"/></e>
+    <e lm="Ecolmare" a="eleka"><i>Ecolmare</i><par n="ABC__np"/></e>
+    <e lm="Aquarium" a="eleka"><i>Aquarium</i><par n="ABC__np"/></e>
+    <e lm="Grupo Barbanza" a="eleka"><i>Grupo<b/>Barbanza</i><par n="ABC__np"/></e>
+    <e lm="Plentzia" a="eleka"><i>Plentzia</i><par n="ABC__np"/></e>
+    <e lm="Mecos Mondariz" a="eleka"><i>Mecos<b/>Mondariz</i><par n="ABC__np"/></e>
+    <e lm="Batura Mobile Solutions" a="eleka"><i>Batura<b/>Mobile<b/>Solutions</i><par n="ABC__np"/></e>
+    <e lm="Urcabal" a="eleka"><i>Urcabal</i><par n="ABC__np"/></e>
+    <e lm="Bermeo Hiriko" a="eleka"><i>Bermeo<b/>Hiriko</i><par n="ABC__np"/></e>
+    <e lm="Eusko Trenbideak" a="eleka"><i>Eusko<b/>Trenbideak</i><par n="ABC__np"/></e>
+    <e lm="Eusko Trenbidea" a="eleka"><i>Eusko<b/>Trenbidea</i><par n="ABC__np"/></e>
+    <e lm="Eusko Label" a="eleka"><i>Eusko<b/>Label</i><par n="ABC__np"/></e>
+    <e lm="Eusko Tren" a="eleka"><i>Eusko<b/>Tren</i><par n="ABC__np"/></e>
+    <e lm="Iberia Ashland" a="eleka"><i>Iberia<b/>Ashland</i><par n="ABC__np"/></e>
+    <e lm="Koxtape" a="eleka"><i>Koxtape</i><par n="ABC__np"/></e>
+    <e lm="Kaiku" a="eleka"><i>Kaiku</i><par n="ABC__np"/></e>
+    <e lm="Super BM" a="eleka"><i>Super<b/>BM</i><par n="ABC__np"/></e>
+    <e lm="Ashland" a="eleka"><i>Ashland</i><par n="ABC__np"/></e>
+    <e lm="Euskal Telebista" a="eleka"><i>Euskal<b/>Telebista</i><par n="ABC__np"/></e>
+    <e lm="Algorri" a="eleka"><i>Algorri</i><par n="ABC__np"/></e>
+    <e lm="Euskotren Liga" a="eleka"><i>Euskotren<b/>Liga</i><par n="ABC__np"/></e>
+    <e lm="Localia" a="eleka"><i>Localia</i><par n="ABC__np"/></e>
+    <e lm="Zurich" a="eleka"><i>Zurich</i><par n="ABC__np"/></e>
+    <e lm="Kursaal" a="eleka"><i>Kursaal</i><par n="ABC__np"/></e>
+    <e lm="Seguros Zurich" a="eleka"><i>Seguros<b/>Zurich</i><par n="ABC__np"/></e>
+    <e lm="Erriko Kirolak" a="eleka"><i>Erriko<b/>Kirolak</i><par n="ABC__np"/></e>
+    <e lm="berria.info" a="eleka"><i>berria.info</i><par n="ABC__np"/></e>
+    <e lm="diariovasco.com" a="eleka"><i>diariovasco.com</i><par n="ABC__np"/></e>
+    <e lm="eitb.com" a="eleka"><i>eitb.com</i><par n="ABC__np"/></e>
+    <e lm="elcorreo.com" a="eleka"><i>elcorreo.com</i><par n="ABC__np"/></e>
+    <e lm="elpais.com" a="eleka"><i>elpais.com</i><par n="ABC__np"/></e>
+    <e lm="kulturklik.net" a="eleka"><i>kulturklik.net</i><par n="ABC__np"/></e>
+    <e lm="museo guggenheim bilbao" a="eleka"><i>museo<b/>guggenheim<b/>bilbao</i><par n="ABC__np"/></e>
+    <e lm="palacio euskalduna" a="eleka"><i>palacio<b/>euskalduna</i><par n="ABC__np"/></e>
+    <e lm="Ur Kirolak" a="eleka"><i>Ur<b/>Kirolak</i><par n="ABC__np"/></e>
+    <e lm="fnac" a="eleka"><i>fnac</i><par n="ABC__np"/></e>
+    <e lm="Xunqueiriña" a="eleka"><i>Xunqueiriña</i><par n="ABC__np"/></e>
+    <e lm="Diario Montañés" a="eleka"><i>Diario<b/>Montañés</i><par n="ABC__np"/></e>
+    <e lm="Sociedad Ondartza" a="eleka"><i>Sociedad<b/>Ondartza</i><par n="ABC__np"/></e>
+    <e lm="Aiten Etxe" a="eleka"><i>Aiten<b/>Etxe</i><par n="ABC__np"/></e>
+    <e lm="CAIXANOVA" a="eleka"><i>CAIXANOVA</i><par n="ABC__np"/></e>
+    <e lm="WADA" a="eleka"><i>WADA</i><par n="ABC__np"/></e>
+    <e lm="El Corte Inglés" a="eleka"><i>El<b/>Corte<b/>Inglés</i><par n="ABC__np"/></e>
+    <e lm="Museo del Pescador" a="eleka"><i>Museo<b/>del<b/>Pescador</i><par n="ABC__np"/></e>
+    <e lm="Trintxerpeko" a="eleka"><i>Trintxerpeko</i><par n="ABC__np"/></e>
+    <e lm="Sala Chile" a="eleka"><i>Sala<b/>Chile</i><par n="ABC__np"/></e>
+    <e lm="Inmobiliaria Orio" a="eleka"><i>Inmobiliaria<b/>Orio</i><par n="ABC__np"/></e>
+    <e lm="Indaux" a="eleka"><i>Indaux</i><par n="ABC__np"/></e>
+    <e lm="Federación Cántabra" a="eleka"><i>Federación<b/>Cántabra</i><par n="ABC__np"/></e>
+    <e lm="Corona Caja Madrid" a="eleka"><i>Corona<b/>Caja<b/>Madrid</i><par n="ABC__np"/></e>
+    <e lm="Abra-Real Sporting Club" a="eleka"><i>Abra-Real<b/>Sporting<b/>Club</i><par n="ABC__np"/></e>
+    <e lm="AOL" a="eleka"><i>AOL</i><par n="ABC__np"/></e>
+    <e lm="DMOZ" a="eleka"><i>DMOZ</i><par n="ABC__np"/></e>
+    <e lm="LOTURA" a="eleka"><i>LOTURA</i><par n="ABC__np"/></e>
+    <e lm="Open Directory" a="eleka"><i>Open<b/>Directory</i><par n="ABC__np"/></e>
+    <e lm="Hondarribiako Arraun Elkartea" a="eleka"><i>Hondarribiako<b/>Arraun<b/>Elkartea</i><par n="ABC__np"/></e>
+    <e lm="Ensenada de Brazomar" a="eleka"><i>Ensenada<b/>de<b/>Brazomar</i><par n="ABC__np"/></e>
+    <e lm="Fundación Deporte Galego" a="eleka"><i>Fundación<b/>Deporte<b/>Galego</i><par n="ABC__np"/></e>
+    <e lm="EPO" a="eleka"><i>EPO</i><par n="ABC__np"/></e>
+    <e lm="Liga San Miguel" a="eleka"><i>Liga<b/>San<b/>Miguel</i><par n="ABC__np"/></e>
+    <e lm="Cervezas San Miguel" a="eleka"><i>Cervezas<b/>San<b/>Miguel</i><par n="ABC__np"/></e>
+    <e lm="Fandicosta" a="eleka"><i>Fandicosta</i><par n="ABC__np"/></e>
+    <e lm="San Miguel" a="eleka"><i>San<b/>Miguel</i><par n="ABC__np"/></e>
+    <e lm="Caja Madrid" a="eleka"><i>Caja<b/>Madrid</i><par n="ABC__np"/></e>
+    <e lm="San Juan" a="eleka"><i>San<b/>Juan</i><par n="ABC__np"/></e>
+    <e lm="San Pedro" a="eleka"><i>San<b/>Pedro</i><par n="ABC__np"/></e>
+    <e lm="Orsa" a="eleka"><i>Orsa</i><par n="ABC__np"/></e>
+    <e lm="Ambilamp" a="eleka"><i>Ambilamp</i><par n="ABC__np"/></e>
+    <e lm="Amenabar" a="eleka"><i>Amenabar</i><par n="ABC__np"/></e>
+    <e lm="Arantzazu" a="eleka"><i>Arantzazu</i><par n="ABC__np"/></e>
+    <e lm="Zarautz Inmob. Orio" a="eleka"><i>Zarautz<b/>Inmob.<b/>Orio</i><par n="ABC__np"/></e>
+    <e lm="Reta" a="eleka"><i>Reta</i><par n="ABC__np"/></e>
+    <e lm="Endesa" a="eleka"><i>Endesa</i><par n="ABC__np"/></e>
+    <e lm="Euskolabel" a="eleka"><i>Euskolabel</i><par n="ABC__np"/></e>
+    <e lm="Erriko Kirolak Eguna" a="eleka"><i>Erriko<b/>Kirolak<b/>Eguna</i><par n="ABC__np"/></e>
+    <e lm="Pasajes San Juan" a="eleka"><i>Pasajes<b/>San<b/>Juan</i><par n="ABC__np"/></e>
+    <e lm="Pasajes San Pedro" a="eleka"><i>Pasajes<b/>San<b/>Pedro</i><par n="ABC__np"/></e>
+    <e lm="EPO-rh" a="eleka"><i>EPO-rh</i><par n="ABC__np"/></e>
+    <e lm="Doctor Deseo" a="eleka"><i>Doctor<b/>Deseo</i><par n="ABC__np"/></e>
+    <e lm="Euskaltel" a="eleka"><i>Euskaltel</i><par n="ABC__np"/></e>
+    <e lm="Seat" a="eleka"><i>Seat</i><par n="ABC__np"/></e>
+    <e lm="Anfac" a="eleka"><i>Anfac</i><par n="ABC__np"/></e>
+    <e lm="Ganvam" a="eleka"><i>Ganvam</i><par n="ABC__np"/></e>
+    <e lm="Plan 2000E" a="eleka"><i>Plan<b/>2000E</i><par n="ABC__np"/></e>
+    <e lm="Udalbiltza" a="eleka"><i>Udalbiltza</i><par n="ABC__np"/></e>
+    <e lm="PSE" a="eleka"><i>PSE</i><par n="ABC__np"/></e>
+    <e lm="Cajasur" a="eleka"><i>Cajasur</i><par n="ABC__np"/></e>
+    <e lm="Astelena" a="eleka"><i>Astelena</i><par n="ABC__np"/></e>
+    <e lm="Solis" a="eleka"><i>Solis</i><par n="ABC__np"/></e>
+    <e lm="Tour de Francia" a="eleka"><i>Tour<b/>de<b/>Francia</i><par n="ABC__np"/></e>
+    <e lm="ertzaintza" a="eleka"><i>ertzaintza</i><par n="ABC__np"/></e>
+    <e lm="Kubo" a="eleka"><i>Kubo</i><par n="ABC__np"/></e>
+    <e lm="Heineken Jazzaldia" a="eleka"><i>Heineken<b/>Jazzaldia</i><par n="ABC__np"/></e>
+    <e lm="Jazzaldia" a="eleka"><i>Jazzaldia</i><par n="ABC__np"/></e>
+    <e lm="El Diario Vasco" a="eleka"><i>El<b/>Diario<b/>Vasco</i><par n="ABC__np"/></e>
+    <e lm="Diario Vasco" a="eleka"><i>Diario<b/>Vasco</i><par n="ABC__np"/></e>
+    <e lm="Kilometroak" a="eleka"><i>Kilometroak</i><par n="ABC__np"/></e>
+    <e lm="The Sun" a="eleka"><i>The<b/>Sun</i><par n="ABC__np"/></e>
+    <e lm="liga ACB" a="eleka"><i>liga<b/>ACB</i><par n="ABC__np"/></e>
+    <e lm="ACB" a="eleka"><i>ACB</i><par n="ABC__np"/></e>
+    <e lm="N-1" a="eleka"><i>N-1</i><par n="ABC__np"/></e>
+    <e lm="Lagun Aro" a="eleka"><i>Lagun<b/>Aro</i><par n="ABC__np"/></e>
+    <e lm="TSJPV" a="eleka"><i>TSJPV</i><par n="ABC__np"/></e>
+    <e lm="Tribunal Superior de Justicia del País Vasco" a="eleka"><i>Tribunal<b/>Superior<b/>de<b/>Justicia<b/>del<b/>País<b/>Vasco</i><par n="ABC__np"/></e>
+    <e lm="Villareal" a="eleka"><i>Villareal</i><par n="ABC__np"/></e>
+    <e lm="Aralar" a="eleka"><i>Aralar</i><par n="ABC__np"/></e>
+    <e lm="SUMMA" a="eleka"><i>SUMMA</i><par n="ABC__np"/></e>
+    <e i="yes" lm="EFE" a="eleka"><i>EFE</i><par n="ABC__np"/>    </e>
+    <e lm="AlhóndigaBilbao" a="eleka"><i>AlhóndigaBilbao</i><par n="ABC__np"/></e>
+    <e lm="Aiko Taldea" a="eleka"><i>Aiko<b/>Taldea</i><par n="ABC__np"/></e>
+    <e lm="Tour" a="eleka"><i>Tour</i><par n="ABC__np"/></e>
+    <e lm="Generalitat" a="eleka"><i>Generalitat</i><par n="ABC__np"/></e>
+    <e lm="Generalitat de Catalunya" a="eleka"><i>Generalitat<b/>de<b/>Catalunya</i><par n="ABC__np"/></e>
+    <e lm="Eusko Jaurlaritza" a="eleka"><i>Eusko<b/>Jaurlaritza</i><par n="ABC__np"/></e>
+    <e lm="Gobierno Vasco" a="eleka"><i>Gobierno<b/>Vasco</i><par n="ABC__np"/></e>
+    <e lm="Aiko" a="eleka"><i>Aiko</i><par n="ABC__np"/></e>
+    <e lm="Herria" a="eleka"><i>Herria</i><par n="ABC__np"/></e>
+    <e lm="Urraska" a="eleka"><i>Urraska</i><par n="ABC__np"/></e>
+    <e lm="Alhóndiga" a="eleka"><i>Alhóndiga</i><par n="ABC__np"/></e>
+    <e lm="Tecnalia" a="eleka"><i>Tecnalia</i><par n="ABC__np"/></e>
+    <e lm="Real Sociedad" a="eleka"><i>Real<b/>Sociedad</i><par n="ABC__np"/></e>
+    <e lm="Red de Lectura Pública de Euskadi" a="eleka"><i>Red<b/>de<b/>Lectura<b/>Pública<b/>de<b/>Euskadi</i><par n="ABC__np"/></e>
+    <e lm="estatuto de autonomía de Cataluña"><i>estatuto<b/>de<b/>autonomía<b/>de<b/>Cataluña</i><par n="ABC__np"/></e>
+    <e lm="Corán"><i>Corán</i><par n="ABC__np"/></e>
+    <e lm="Apertium"><i>Apertium</i><par n="ABC__np"/></e>
+    <e lm="Windows"><i>Windows</i><par n="ABC__np"/></e>
+    <e lm="LanguageTool"><i>LanguageTool</i><par n="ABC__np"/></e>
+    <e lm="Metallica"><i>Metallica</i><par n="ABC__np"/></e>
+    <e lm="AC/DC"><i>AC/DC</i><par n="ABC__np"/></e>
+    <e lm="Duran Duran"><i>Duran<b/>Duran</i><par n="ABC__np"/></e>
+    <e lm="Alice in Chains"><i>Alice<b/>in<b/>Chains</i><par n="ABC__np"/></e>
+    <e lm="Boeing"><i>Boeing</i><par n="ABC__np"/></e>
+    <e lm="Esperando a Godot"><i>Esperando<b/>a<b/>Godot</i><par n="ABC__np"/></e>
+    <e lm="Google"><i>Google</i><par n="ABC__np"/></e>
+    <e lm="Google Summer of Code"><i>Google<b/>Summer<b/>of<b/>Code</i><par n="ABC__np"/></e>
+    <e lm="Greenpeace"><i>Greenpeace</i><par n="ABC__np"/></e>
+    <e lm="Linux"><i>Linux</i><par n="ABC__np"/></e>
+    <e lm="Ashton-Tate"><i>Ashton-Tate</i><par n="ABC__np"/></e>
+    <e lm="Youtube"><i>Youtube</i><par n="ABC__np"/></e>
+    <e lm="Apple"><i>Apple</i><par n="ABC__np"/></e>
+    <e lm="Aer Lingus"><i>Aer<b/>Lingus</i><par n="ABC__np"/></e>
+    <e lm="China National Petroleum Corporation"><i>China<b/>National<b/>Petroleum<b/>Corporation</i><par n="ABC__np"/></e>
+    <e lm="Partido Popular Europeo"><i>Partido<b/>Popular<b/>Europeo</i><par n="ABC__np"/></e>
+    <e lm="Victoria's Secret"><i>Victoria's<b/>Secret</i><par n="ABC__np"/></e>
+    <e lm="Monarch Gold"><i>Monarch<b/>Gold</i><par n="ABC__np"/></e>
+    <e lm="20th Century Fox"><i>20th<b/>Century<b/>Fox</i><par n="ABC__np"/></e>
+    <e lm="Banco Mundial"><i>Banco<b/>Mundial</i><par n="ABC__np"/></e>
+    <e lm="Banco Internacional de Reconstrucción y Fomento"><i>Banco<b/>Internacional<b/>de<b/>Reconstrucción<b/>y<b/>Fomento</i><par n="ABC__np"/></e>
+    <e lm="Athletic Club Bilbao"><i>Athletic<b/>Club<b/>Bilbao</i><par n="ABC__np"/></e>
+    <e lm="Le Monde"><i>Le<b/>Monde</i><par n="ABC__np"/></e>
+    <e lm="El Correo"><i>El<b/>Correo</i><par n="ABC__np"/></e>
+    <e lm="E.H. Sukarra"><i>E.H.<b/>Sukarra</i><par n="ABC__np"/></e>
+    <e lm="Microsoft"><i>Microsoft</i><par n="ABC__np"/></e>
+    <e lm="Mozilla"><i>Mozilla</i><par n="ABC__np"/></e>
+    <e lm="Repsol"><i>Repsol</i><par n="ABC__np"/></e>
+    <e lm="Unix"><i>Unix</i><par n="ABC__np"/></e>
+    <e lm="The New York Times"><i>The<b/>New<b/>York<b/>Times</i><par n="ABC__np"/></e>
+    <e lm="Tratado por el que se establece una constitución para Europa" a="jimregan"><i>Tratado<b/>por<b/>el<b/>que<b/>se<b/>establece<b/>una<b/>constitución<b/>para<b/>Europa</i><par n="ABC__np"/></e>
+    <e lm="Dow Jones"><i>Dow<b/>Jones</i><par n="ABC__np"/></e>
+    <e lm="Realitatea TV"><i>Realitatea<b/>TV</i><par n="ABC__np"/></e>
+    <e lm="Conducator"><i>Conducator</i><par n="ABC__np"/></e>
+    <e lm="Prompsit"><i>Prompsit</i><par n="ABC__np"/></e>
+    <e lm="Autodesk"><i>Autodesk</i><par n="ABC__np"/></e>
+    <e lm="Yahoo!"><i>Yahoo!</i><par n="ABC__np"/></e>
+    <e lm="British Airways"><i>British<b/>Airways</i><par n="ABC__np"/></e>
+    <e lm="Friendfeed"><i>Friendfeed</i><par n="ABC__np"/></e>
+    <e lm="Dopplr"><i>Dopplr</i><par n="ABC__np"/></e>
+    <e lm="iTunes"><i>iTunes</i><par n="ABC__np"/></e>
+    <e lm="IHeardItOn"><i>IHeardItOn</i><par n="ABC__np"/></e>
+    <e lm="Bing"><i>Bing</i><par n="ABC__np"/></e>
+    <e lm="Microsoft Bing"><i>Microsoft<b/>Bing</i><par n="ABC__np"/></e>
+    <e lm="New York Times"><i>New<b/>York<b/>Times</i><par n="ABC__np"/></e>
+    <e lm="Wall Street Journal"><i>Wall<b/>Street<b/>Journal</i><par n="ABC__np"/></e>
+    <e lm="Nike"><i>Nike</i><par n="ABC__np"/></e>
+    <e lm="Garmin"><i>Garmin</i><par n="ABC__np"/></e>
+    <e lm="Facebook"><i>Facebook</i><par n="ABC__np"/></e>
+    <e lm="Flickr"><i>Flickr</i><par n="ABC__np"/></e>
+    <e lm="Fondo Monetario Internacional"><i>Fondo<b/>Monetario<b/>Internacional</i><par n="ABC__np"/></e>
+    <e lm="Pacto de Varsovia"><i>Pacto<b/>de<b/>Varsovia</i><par n="ABC__np"/></e>
+    <e lm="Tratado de Amistad, Colaboración y Asistencia Mutua" a="jimregan"><i>Tratado<b/>de<b/>Amistad,<b/>Colaboración<b/>y<b/>Asistencia<b/>Mutua</i><par n="ABC__np"/></e>
+    <e lm="FTSE 100"><i>FTSE<b/>100</i><par n="ABC__np"/></e>
+    <e lm="S&amp;P 500"><i>S&amp;P<b/>500</i><par n="ABC__np"/></e>
+    <e lm="S&amp;P TSX"><i>S&amp;P<b/>TSX</i><par n="ABC__np"/></e>
+    <e lm="CAC 40"><i>CAC<b/>40</i><par n="ABC__np"/></e>
+    <e lm="Ibex 35"><i>Ibex<b/>35</i><par n="ABC__np"/></e>
+    <e lm="Fortune 500"><i>Fortune<b/>500</i><par n="ABC__np"/></e>
+    <e lm="Explorer" a="prompsit2cdl"><i>Explorer</i><par n="ABC__np"/></e>
+    <e lm="casadellibro.com" a="prompsit2cdl"><i>casadellibro.com</i><par n="ABC__np"/></e>
+    <e lm="Netscape" a="prompsit2cdl"><i>Netscape</i><par n="ABC__np"/></e>
+    <e lm="VeriSign" a="prompsit2cdl"><i>VeriSign</i><par n="ABC__np"/></e>
+    <e lm="Little Boy" a="greenbreen"><i>Little<b/>Boy</i><par n="ABC__np"/></e>
+    <e lm="Fat Man" a="greenbreen"><i>Fat<b/>Man</i><par n="ABC__np"/></e>
+    <e lm="Laboratorio Nacional Los Álamos" a="greenbreen"><i>Laboratorio<b/>Nacional<b/>Los<b/>Álamos</i><par n="ABC__np"/></e>
+    <e lm="YouTube" a="greenbreen"><i>YouTube</i><par n="ABC__np"/></e>
+    <e lm="pleistoceno" a="greenbreen"><i>pleistoceno</i><par n="ABC__np"/></e>
+    <e lm="Calisto" a="greenbreen"><i>Calisto</i><par n="ABC__np"/></e>
+    <e lm="Ganímedes" a="greenbreen"><i>Ganímedes</i><par n="ABC__np"/></e>
+    <e lm="Telescopio espacial Hubble" a="greenbreen"><i>Telescopio<b/>espacial<b/>Hubble</i><par n="ABC__np"/></e>
+    <e lm="Hubble" a="greenbreen"><i>Hubble</i><par n="ABC__np"/></e>
+    <e lm="Oracle" a="greenbreen"><i>Oracle</i><par n="ABC__np"/></e>
+    <e lm="Nintendo" a="greenbreen"><i>Nintendo</i><par n="ABC__np"/></e>
+    <e lm="Harvard" a="greenbreen"><i>Harvard</i><par n="ABC__np"/></e>
+    <e lm="SPICE" a="greenbreen"><i>SPICE</i><par n="ABC__np"/></e>
+    <e lm="FORTRAN" a="greenbreen"><i>FORTRAN</i><par n="ABC__np"/></e>
+    <e lm="Wi-Fi" a="greenbreen"><i>Wi-Fi</i><par n="ABC__np"/></e>
+    <e lm="Imperio Medio" a="greenbreen"><i>Imperio<b/>Medio</i><par n="ABC__np"/></e>
+    <e lm="C. C. de la Electricidad" a="imaxinsoftware"><i>C.<b/>C.<b/>de<b/>la<b/>Electricidad</i><par n="ABC__np"/></e>
+    <e lm="C. C. de Hidrocarburos" a="imaxinsoftware"><i>C.<b/>C.<b/>de<b/>Hidrocarburos</i><par n="ABC__np"/></e>
+    <e lm="Consejo Consultivo de la Electricidad" a="imaxinsoftware"><i>Consejo<b/>Consultivo<b/>de<b/>la<b/>Electricidad</i><par n="ABC__np"/></e>
+    <e lm="Consejo Consultivo de Hidrocarburos" a="imaxinsoftware"><i>Consejo<b/>Consultivo<b/>de<b/>Hidrocarburos</i><par n="ABC__np"/></e>
+    <e lm="Cons. Prod. Petrolíferos" a="imaxinsoftware"><i>Cons.<b/>Prod.<b/>Petrolíferos</i><par n="ABC__np"/></e>
+    <e lm="Ministerio de Hacienda" a="imaxinsoftware"><i>Ministerio<b/>de<b/>Hacienda</i><par n="ABC__np"/></e>
+    <e lm="Diario Oficial de la Unión Europea" a="imaxinsoftware"><i>Diario<b/>Oficial<b/>de<b/>la<b/>Unión<b/>Europea</i><par n="ABC__np"/></e>
+    <e lm="Estado Mayor de la Defensa" a="imaxinsoftware"><i>Estado<b/>Mayor<b/>de<b/>la<b/>Defensa</i><par n="ABC__np"/></e>
+    <e lm="Ejército de Tierra" a="imaxinsoftware"><i>Ejército<b/>de<b/>Tierra</i><par n="ABC__np"/></e>
+    <e lm="Ejército del Aire" a="imaxinsoftware"><i>Ejército<b/>del<b/>Aire</i><par n="ABC__np"/></e>
+    <e lm="Christian Dior" a="imaxinsoftware"><i>Christian<b/>Dior</i><par n="ABC__np"/></e>
+    <e lm="Amazon" a="imaxinsoftware"><i>Amazon</i><par n="ABC__np"/></e>
+    <e lm="LaGuardia Community College" a="imaxinsoftware"><i>LaGuardia<b/>Community<b/>College</i><par n="ABC__np"/></e>
+    <e lm="iPad" a="imaxinsoftware"><i>iPad</i><par n="ABC__np"/></e>
+    <e lm="Nokia" a="imaxinsoftware"><i>Nokia</i><par n="ABC__np"/></e>
+    <e lm="iPhone" a="imaxinsoftware"><i>iPhone</i><par n="ABC__np"/></e>
+    <e lm="Aquarius" a="imaxinsoftware"><i>Aquarius</i><par n="ABC__np"/></e>
+    <e lm="Acuario" a="imaxinsoftware"><i>Acuario</i><par n="ABC__np"/></e>
+    <e lm="Aries" a="imaxinsoftware"><i>Aries</i><par n="ABC__np"/></e>
+    <e lm="Watershed Media Centre" a="imaxinsoftware"><i>Watershed<b/>Media<b/>Centre</i><par n="ABC__np"/></e>
+    <e lm="Control de la superficie minera y Ley de recuperación" a="imaxinsoftware"><i>Control<b/>de<b/>la<b/>superficie<b/>minera<b/>y<b/>Ley<b/>de<b/>recuperación</i><par n="ABC__np"/></e>
+    <e lm="Barça" a="imaxinsoftware"><i>Barça</i><par n="ABC__np"/></e>
+    <e lm="Shakhtar" a="imaxinsoftware"><i>Shakhtar</i><par n="ABC__np"/></e>
+    <e lm="Camp Nou" a="imaxinsoftware"><i>Camp<b/>Nou</i><par n="ABC__np"/></e>
+    <e lm="Highbury" a="imaxinsoftware"><i>Highbury</i><par n="ABC__np"/></e>
+    <e lm="Manchester United" a="imaxinsoftware"><i>Manchester<b/>United</i><par n="ABC__np"/></e>
+    <e lm="Manchester City" a="imaxinsoftware"><i>Manchester<b/>City</i><par n="ABC__np"/></e>
+    <e lm="Arsenal" a="imaxinsoftware"><i>Arsenal</i><par n="ABC__np"/></e>
+    <e lm="Real Madrid" a="imaxinsoftware"><i>Real<b/>Madrid</i><par n="ABC__np"/></e>
+    <e lm="Wigan Athletic" a="imaxinsoftware"><i>Wigan<b/>Athletic</i><par n="ABC__np"/></e>
+    <e lm="Aston Villa" a="imaxinsoftware"><i>Aston<b/>Villa</i><par n="ABC__np"/></e>
+    <e lm="Old Trafford" a="imaxinsoftware"><i>Old<b/>Trafford</i><par n="ABC__np"/></e>
+    <e lm="West Ham" a="imaxinsoftware"><i>West<b/>Ham</i><par n="ABC__np"/></e>
+    <e lm="West Ham United" a="imaxinsoftware"><i>West<b/>Ham<b/>United</i><par n="ABC__np"/></e>
+    <e lm="Abertal" a="imaxinsoftware"><i>Abertal</i><par n="ABC__np"/></e>
+    <e lm="Abertal Networks" a="imaxinsoftware"><i>Abertal<b/>Networks</i><par n="ABC__np"/></e>
+    <e lm="Aenor" a="imaxinsoftware"><i>Aenor</i><par n="ABC__np"/></e>
+    <e lm="Android" a="imaxinsoftware"><i>Android</i><par n="ABC__np"/></e>
+    <e lm="Arcade Fire" a="imaxinsoftware"><i>Arcade<b/>Fire</i><par n="ABC__np"/></e>
+    <e lm="Ava Soluciones Tecnológicas" a="imaxinsoftware"><i>Ava<b/>Soluciones<b/>Tecnológicas</i><par n="ABC__np"/></e>
+    <e lm="Blackberry" a="imaxinsoftware"><i>Blackberry</i><par n="ABC__np"/></e>
+    <e lm="Blogger" a="imaxinsoftware"><i>Blogger</i><par n="ABC__np"/></e>
+    <e lm="Deza Business" a="imaxinsoftware"><i>Deza<b/>Business</i><par n="ABC__np"/></e>
+    <e lm="Dreamweaver" a="imaxinsoftware"><i>Dreamweaver</i><par n="ABC__np"/></e>
+    <e lm="Eganet" a="imaxinsoftware"><i>Eganet</i><par n="ABC__np"/></e>
+    <e lm="ElMuelle" a="imaxinsoftware"><i>ElMuelle</i><par n="ABC__np"/></e>
+    <e lm="ElMuelle Servicios Hosting SL" a="imaxinsoftware"><i>ElMuelle<b/>Servicios<b/>Hosting<b/>SL</i><par n="ABC__np"/></e>
+    <e lm="Elogia Media" a="imaxinsoftware"><i>Elogia<b/>Media</i><par n="ABC__np"/></e>
+    <e lm="Ericsson" a="imaxinsoftware"><i>Ericsson</i><par n="ABC__np"/></e>
+    <e lm="Finisterrae" a="imaxinsoftware"><i>Finisterrae</i><par n="ABC__np"/></e>
+    <e lm="Foursquare" a="imaxinsoftware"><i>Foursquare</i><par n="ABC__np"/></e>
+    <e lm="Fujitsu" a="imaxinsoftware"><i>Fujitsu</i><par n="ABC__np"/></e>
+    <e lm="Galinus" a="imaxinsoftware"><i>Galinus</i><par n="ABC__np"/></e>
+    <e lm="Hacce Soluciones TIC" a="imaxinsoftware"><i>Hacce<b/>Soluciones<b/>TIC</i><par n="ABC__np"/></e>
+    <e lm="Hootsuite" a="imaxinsoftware"><i>Hootsuite</i><par n="ABC__np"/></e>
+    <e lm="Human Soft" a="imaxinsoftware"><i>Human<b/>Soft</i><par n="ABC__np"/></e>
+    <e lm="iPod" a="imaxinsoftware"><i>iPod</i><par n="ABC__np"/></e>
+    <e lm="Isenda Telemática" a="imaxinsoftware"><i>Isenda<b/>Telemática</i><par n="ABC__np"/></e>
+    <e lm="Javascript" a="imaxinsoftware"><i>Javascript</i><par n="ABC__np"/></e>
+    <e lm="Joomla" a="imaxinsoftware"><i>Joomla</i><par n="ABC__np"/></e>
+    <e lm="Linkedin" a="imaxinsoftware"><i>Linkedin</i><par n="ABC__np"/></e>
+    <e lm="Magento" a="imaxinsoftware"><i>Magento</i><par n="ABC__np"/></e>
+    <e lm="MySpace" a="imaxinsoftware"><i>MySpace</i><par n="ABC__np"/></e>
+    <e lm="MySQL" a="imaxinsoftware"><i>MySQL</i><par n="ABC__np"/></e>
+    <e lm="Siemens" a="imaxinsoftware"><i>Siemens</i><par n="ABC__np"/></e>
+    <e lm="Sixtema" a="imaxinsoftware"><i>Sixtema</i><par n="ABC__np"/></e>
+    <e lm="Spotify" a="imaxinsoftware"><i>Spotify</i><par n="ABC__np"/></e>
+    <e lm="SQL Server" a="imaxinsoftware"><i>SQL<b/>Server</i><par n="ABC__np"/></e>
+    <e lm="Twitter" a="imaxinsoftware"><i>Twitter</i><par n="ABC__np"/></e>
+    <e lm="Visual Publinet" a="imaxinsoftware"><i>Visual<b/>Publinet</i><par n="ABC__np"/></e>
+    <e lm="Wireless Galicia" a="imaxinsoftware"><i>Wireless<b/>Galicia</i><par n="ABC__np"/></e>
+    <e lm="Wordpress" a="imaxinsoftware"><i>Wordpress</i><par n="ABC__np"/></e>
+
+
+<!-- SECTION: Prnsubj -->
+
+
 
 
 <!-- SECTION: Uncategorised Words -->
