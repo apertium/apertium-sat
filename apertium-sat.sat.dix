@@ -6,7 +6,8 @@
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
-	<sdef n="n" 	c="Noun"/> 
+    <sdef n="n" 	c="Noun"/>
+    <sdef n="num_noun" 	c="Number noun"/>
     <sdef n="np" 	c="Proper name"/> 
     <sdef n="pr" 	c="Preposition"/> 
     <sdef n="vblex" 	c="Verb"/> 
@@ -164,7 +165,6 @@
 </pardef>
 
 
-
 	<!-- SECTION: Punctuation -->      
 
 <pardef n="numeros">
@@ -259,7 +259,12 @@
 
 <pardef n="ᱢᱤᱫ__num">
       <e><p><l></l><r><s n="num"/><s n="sg"/></r></p></e>
-	</pardef>
+</pardef>
+
+<pardef n="ᱢᱤᱫᱴᱟᱹᱝ__num">
+      <e><p><l></l><r><s n="num"/><s n="sg"/></r></p></e>
+</pardef>
+
 <pardef n="ᱵᱟᱨ__num">
   <e>       <p><l></l>          <r><s n="num"/><s n="pl"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="num"/><s n="sp"/></r></p></e>
@@ -312,9 +317,8 @@
  -->
 <!-- SECTION: Paradigm Nouns -->
 
-
 <pardef n="ᱵᱤᱥᱩ__np">
-      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
  		
 <pardef n="ᱥᱨᱤᱭᱟ__np">
@@ -324,6 +328,16 @@
 <pardef n="ᱠᱤᱥᱠᱩ__np">
 	<e><p><l></l><r><s n="np"/><s n="cog"/><s n="sg"/></r></p></e>
 </pardef>
+
+
+
+
+
+
+
+
+
+
 
 	<!-- Paradigms define ends here. 
     <pardef n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n">       
@@ -341,12 +355,29 @@
 -->
 
 <pardef n="ᱠᱚᱧᱮ__n">       
-       <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
 </pardef>
 
 <pardef n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n">       
-       <e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
-       <e><p><l>ᱠᱚ</l><r><s n="n"/><s n="pl"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+       <e><p><l> ᱠᱚ</l><r><s n="n"/><s n="pl"/></r></p></e>
+       <e><p><l> ᱠᱤᱱ</l><r><s n="n"/><s n="du"/></r></p></e>
+</pardef>
+
+<pardef n="ᱚᱠᱛᱚ__n">       
+       <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+       <e><p><l> ᱠᱚ</l><r><s n="n"/><s n="pl"/></r></p></e>
+       <e><p><l> ᱠᱤᱱ</l><r><s n="n"/><s n="du"/></r></p></e>
+       <e><p><l>ᱡᱟᱹᱱᱤᱡ</l><r><s n="adj"/></r></p></e>
+</pardef>
+
+<pardef n="ᱚᱛᱚᱱᱚᱜ__n">
+	<e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+	<e><p><l> ᱠᱚ</l><r><s n="n"/><s n="pl"/></r></p></e>
+	<e><p><l> ᱠᱤᱱ</l><r><s n="n"/><s n="du"/></r></p></e>
+       <e><p><l>ᱜ</l><r><s n="n"/><s n="sg"/></r></p></e>
+       <e><p><l>ᱜ ᱠᱚ</l><r><s n="n"/><s n="pl"/></r></p></e>
+       <e><p><l>ᱜ ᱠᱤᱱ</l><r><s n="n"/><s n="du"/></r></p></e>
 </pardef>
 	
 <pardef n="ᱵᱷᱟᱨᱚᱛ__np">
@@ -374,16 +405,45 @@
 
 <!--  Verb  -->
 <pardef n="ᱡᱚᱢ__vblex">
-  <e>       <p><l>ᱡᱚᱢ</l>       <r>ᱡᱚᱢ<s n="vblex"/><s n="inf"/></r></p></e>
-  <e>       <p><l>ᱡᱚᱢ</l>       <r>ᱡᱚᱢ<s n="vblex"/><s n="tv"/></r></p></e>
-  <e>       <p><l>ᱡᱚᱢ</l>       <r>ᱡᱚᱢ<s n="vblex"/><s n="imp"/></r></p></e>
-  <e>       <p><l>ᱡᱚᱢᱠᱮᱜᱟᱹᱧ</l>     <r>ᱡᱚᱢ<s n="vblex"/><s n="pp"/></r></p></e>
-  <e w="1"> <p><l>ᱡᱚᱢᱮᱫᱟᱭ</l>    <r>ᱡᱚᱢ<s n="vblex"/><s n="pprs"/></r></p></e>
-  <e w="3"> <p><l>ᱡᱚᱢᱮᱫᱟᱭ</l>    <r>ᱡᱚᱢ<s n="vblex"/><s n="ger"/></r></p></e>
-  <e w="2"> <p><l>ᱡᱚᱢᱮᱫᱟᱭ</l>    <r>ᱡᱚᱢ<s n="vblex"/><s n="subs"/></r></p></e>
-  <e>       <p><l>ᱡᱚᱢ</l>       <r>ᱡᱚᱢ<s n="vblex"/><s n="pres"/></r></p></e>
-  <e>       <p><l>ᱡᱚᱢᱟᱭ</l>      <r>ᱡᱚᱢ<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ᱡᱚᱢᱠᱮᱜᱼᱟᱭ</l>       <r>ᱡᱚᱢ<s n="vblex"/><s n="past"/></r></p></e>
+  <e>       <p><l></l>       <r><s n="vblex"/><s n="inf"/></r></p></e>
+  <e>       <p><l></l>       <r><s n="vblex"/><s n="tv"/></r></p></e>
+  <e>       <p><l></l>       <r><s n="vblex"/><s n="imp"/></r></p></e>
+  <e>       <p><l> ᱠᱮᱜᱟᱹᱧ</l>     <r><s n="vblex"/><s n="pp"/></r></p></e>
+  <e w="1"> <p><l> ᱮᱫᱟᱭ</l>    <r><s n="vblex"/><s n="pprs"/></r></p></e>
+  <e w="3"> <p><l> ᱮᱫ ᱛᱟᱦᱮᱸᱡ</l>    <r><s n="vblex"/><s n="ger"/></r></p></e>
+  <e w="2"> <p><l> ᱮᱫᱟᱭ</l>    <r><s n="vblex"/><s n="subs"/></r></p></e>
+  <e>       <p><l></l>       <r><s n="vblex"/><s n="pres"/></r></p></e>
+  <e>       <p><l> ᱟᱭ</l>      <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l> ᱞᱮᱫᱟᱭ</l>       <r><s n="vblex"/><s n="past"/></r></p></e>
+</pardef>
+<!--  be Verb  -->
+
+<pardef n="ᱫᱚ__vblex">
+  <e>       <p><l></l>        <r><s n="vblex"/><s n="inf"/></r></p></e>
+  <e>       <p><l></l>        <r><s n="vblex"/><s n="imp"/></r></p></e>
+  <e>       <p><l></l>      <r><s n="vblex"/><s n="pp"/></r></p></e>
+  <e w="1"> <p><l></l>     <r><s n="vblex"/><s n="pprs"/></r></p></e>
+  <e w="3"> <p><l></l>     <r><s n="vblex"/><s n="ger"/></r></p></e>
+  <e w="2"> <p><l></l>     <r><s n="vblex"/><s n="subs"/></r></p></e>
+  <e>       <p><l></l>        <r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>       <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>       <r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>       <r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>       <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>       <r><s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>      <r><s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>       <r><s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>      <r><s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>      <r><s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>      <r><s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l></l>       <r><s n="vblex"/><s n="pres"/></r></p></e>
+  <e r="RL"><p><l></l>      <r><s n="vblex"/><s n="past"/></r></p></e>
+</pardef>
+
+<pardef n="east__n">
+  <e>       <p><l></l>          <r><s n="n"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l></l>        <r><s n="n"/><s n="sg"/><s n="gen"/></r></p></e>
 </pardef>
 
     <!-- SECTION: Conjunctions -->      
@@ -427,14 +487,139 @@
 	<pardef n="ᱟᱭᱢᱟ__det">
 		<e><p><l></l><r><s n="det"/><s n="ind"/><s n="obl"/><s n="mfn"/><s n="sg"/></r></p></e>
     </pardef>
+    
+<!-- Number Noun Paradigms -->    
+<pardef n="ᱢᱤᱫ__num_noun">
+    <e>
+        <p>
+            <l>ᱴᱟᱹᱝ</l>
+            <r><s n="num_noun"/></r>
+        </p>
+    </e>
+</pardef>
 
 	<!-- Paradigms define ends here. -->
+	
+	
+	
+	
+	
+<pardef n="/he__prn">
+  <e>       <p><l>he</l>        <r>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>he</l>        <r>he<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>him</l>       <r>he<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+</pardef>
+<pardef n="/she__prn">
+  <e>       <p><l>she</l>       <r>she<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>she</l>       <r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>her</l>       <r>she<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
+
+
+
+
+<!-- SECTION: Pronouns -->
+
+<pardef n="ᱩᱱᱤ__prn">
+  <e>
+    <p>
+      <l></l>
+      <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r>
+    </p>
+  </e>
+
+  <e r="RL">
+    <p>
+      <l></l>
+      <r><s n="prn"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
+    </p>
+  </e>
+
+  <e r="RL">
+    <p>
+      <l></l>
+      <r><s n="prn"/><s n="obj"/><s n="p3"/><s n="sg"/></r>
+    </p>
+  </e>
+</pardef>
+
+<pardef n="ᱚᱠᱚᱭᱟᱜ__prn">
+  <e>
+    <p>
+      <l>ᱟᱜ</l>
+      <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r>
+    </p>
+  </e>
+
+  <e r="RL">
+    <p>
+      <l>ᱟᱜ</l>
+      <r><s n="prn"/><s n="subj"/><s n="p3"/><s n="sg"/></r>
+    </p>
+  </e>
+
+  <e r="RL">
+    <p>
+      <l>ᱟᱜ</l>
+      <r><s n="prn"/><s n="obj"/><s n="p3"/><s n="sg"/></r>
+    </p>
+  </e>
+</pardef>
+
+<pardef n="ᱚᱛᱚᱝ__ᱜᱩᱹᱯᱟᱹ">
+  <e>       <p><l></l>          <r><s n="adj"/></r></p></e>
+</pardef>
+
+
+<pardef n="__ᱛᱚᱱᱚᱲᱹᱯᱟᱹᱨᱤᱥ">
+  <e>       <p><l></l>          <r><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="ᱚᱠᱟ__ᱛᱚᱱᱚᱲᱹᱯᱟᱹᱨᱤᱥ">
+  <e>       <p><l></l>          <r><s n="adv"/></r></p></e>
+  <e>       <p><l>ᱛᱮ</l>          <r><s n="adv"/></r></p></e>
+  <e>       <p><l>ᱥᱮᱫ</l>          <r><s n="adv"/></r></p></e>
+  <e>       <p><l>ᱪᱚ</l>          <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ᱪᱚ</l>          <r><s n="prn"/><s n="subj"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ᱪᱚ</l>          <r><s n="prn"/><s n="obj"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ᱞᱮᱠᱟ</l>          <r><s n="adv"/></r></p></e>
+    <e>       <p><l>ᱨᱮ</l>          <r><s n="adv"/></r></p></e>
+</pardef>
+
     </pardefs>
+
 
   <section id="main" type="standard">
     <!-- Define entries within <e> here. -->
 
-	<!-- Conjunctions -->  
+<!-- Uncategorized -->  
+
+
+<e lm="ᱚᱛ"><i>ᱚᱛ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+<e lm="ᱚᱛᱚᱝ"><i>ᱚᱛᱚᱝ</i><par n="ᱚᱛᱚᱝ__ᱜᱩᱹᱯᱟᱹ"/></e>
+<e lm="ᱚᱛᱚᱝ ᱫᱚᱲᱚᱢ"><i>ᱚᱛᱚᱝ<b/>ᱫᱚᱲᱚᱢ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+<e lm="ᱚᱛᱚᱢ"><i>ᱚᱛᱚᱢ</i><par n="ᱡᱚᱢ__vblex"/></e>
+<e lm="ᱚᱛᱚᱢᱚᱱ"><i>ᱚᱛᱚᱢᱚᱱ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+<e lm="ᱚᱛᱚᱞ"><i>ᱚᱛᱚᱞ</i><par n="ᱡᱚᱢ__vblex"/></e>
+<e lm="ᱚᱛᱚᱲᱮᱡ"><i>ᱚᱛᱚᱲᱮᱡ</i><par n="ᱡᱚᱢ__vblex"/></e>
+<e lm="ᱚᱛᱟ"><i>ᱚᱛᱟ</i><par n="ᱡᱚᱢ__vblex"/></e>
+<e lm="ᱚᱛᱮ"><i>ᱚᱛᱮ</i><par n="ᱡᱚᱢ__vblex"/></e>
+<e lm="ᱚᱛᱮ"><i>ᱚᱛᱮ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+<e lm="ᱚᱛᱮᱛ"><i>ᱚᱛᱮᱛ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+<e lm="ᱚᱛᱥᱚᱝ"><i>ᱚᱛᱥᱚᱝ</i><par n="ᱡᱚᱢ__vblex"/></e>
+<e lm="ᱚᱛᱦᱟᱥᱟ"><i>ᱚᱛᱦᱟᱥᱟ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+<e lm="ᱚᱛᱱᱚ"><i>ᱚᱛᱱᱚ</i><par n="ᱚᱛᱚᱱᱚᱜ__n"/></e>
+<e lm="ᱚᱠᱚᱴ"><i>ᱚᱠᱚᱴ</i><par n="ᱡᱚᱢ__vblex"/></e>
+<e lm="ᱚᱠᱚᱴ ᱥᱚᱠᱚᱴ"><i>ᱚᱠᱚᱴ<b/>ᱥᱚᱠᱚᱴ</i><par n="ᱚᱛᱚᱝ__ᱜᱩᱹᱯᱟᱹ"/></e>
+<e lm="ᱚᱠᱚᱡ"><i>ᱚᱠᱚᱡ</i><par n="ᱚᱛᱚᱝ__ᱜᱩᱹᱯᱟᱹ"/></e>
+<e lm="ᱚᱠᱚᱰᱟ"><i>ᱚᱠᱚᱰᱟ</i><par n="ᱚᱛᱚᱝ__ᱜᱩᱹᱯᱟᱹ"/></e>
+<e lm="ᱚᱠᱚᱭ"><i>ᱚᱠᱚᱭ</i><par n="ᱚᱠᱚᱭᱟᱜ__prn"/></e>
+<e lm="ᱚᱠᱟ"><i>ᱚᱠᱟ</i><par n="ᱚᱠᱟ__ᱛᱚᱱᱚᱲᱹᱯᱟᱹᱨᱤᱥ"/></e>
+<e lm="ᱚᱠᱛᱚ"><i>ᱚᱠᱛᱚ</i><par n="ᱚᱠᱛᱚ__n"/></e>
+<e lm="ᱚᱠᱛᱟ"><i>ᱚᱠᱛᱟ</i><par n="ᱡᱚᱢ__vblex"/></e>
+
+
+
+<!-- Conjunctions -->  
 
 <e lm="ᱟᱨᱵᱟᱝᱠᱷᱟᱱ"><i>ᱟᱨᱵᱟᱝᱠᱷᱟᱱ</i><par n="ᱟᱨ__cnjcoo"/></e>
 <e lm="ᱟᱨ"><i>ᱟᱨ</i><par n="ᱟᱨ__cnjcoo"/></e>
@@ -514,8 +699,11 @@
 <e lm="ᱵᱟᱨᱭᱟ"><i>ᱵᱟᱨᱭᱟ</i><par n="ᱟᱭᱢᱟ__det"/></e>
 <e lm="ᱵᱟᱨ"><i>ᱵᱟᱨ</i><par n="ᱟᱭᱢᱟ__det"/></e>
 
+<!-- pronouns -->
 
-	<!-- Proper Nouns Male-->
+<e lm="ᱩᱱᱤ"><i>ᱩᱱᱤ</i><par n="ᱩᱱᱤ__prn"/></e>
+
+<!-- Proper Nouns Male-->
 
 <e lm="ᱨᱚᱵᱤ"><i>ᱨᱚᱵᱤ</i><par n="ᱵᱤᱥᱩ__np"/></e>
 <e lm="ᱥᱟᱹᱜᱩᱱ"><i>ᱥᱟᱹᱜᱩᱱ</i><par n="ᱵᱤᱥᱩ__np"/></e>
@@ -600,7 +788,6 @@
 <e lm="ᱥᱤᱛᱟᱨᱟᱢ"><i>ᱥᱤᱛᱟᱨᱟᱢ</i><par n="ᱵᱤᱥᱩ__np"/></e>
 <e lm="ᱨᱚᱜᱷᱩ"><i>ᱨᱚᱜᱷᱩ</i><par n="ᱵᱤᱥᱩ__np"/></e>
 <e lm="ᱨᱚᱜᱷᱩᱱᱟᱛᱷ"><i>ᱨᱚᱜᱷᱩᱱᱟᱛᱷ</i><par n="ᱵᱤᱥᱩ__np"/></e>
-
 <e lm="ᱟᱨᱚᱱ"><i>ᱟᱨᱚᱱ</i><par n="ᱵᱤᱥᱩ__np"/></e>
 <e lm="ᱟᱨᱚᱱ"><i>ᱟᱨᱚᱱ</i><par n="ᱵᱤᱥᱩ__np"/></e>
 <e lm="ᱟᱵᱟᱠᱚ"><i>ᱟᱵᱟᱠᱚ</i><par n="ᱵᱤᱥᱩ__np"/></e>
@@ -3457,6 +3644,10 @@
 <e lm="ᱢᱟᱴᱤᱭᱟᱲ"><i>ᱢᱟᱴᱤᱭᱟᱲ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱜᱮᱨᱩᱟ"><i>ᱜᱮᱨᱩᱟ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱵᱮᱱᱜᱩᱱᱤ"><i>ᱵᱮᱱᱜᱩᱱᱤ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+<!-- SECTION: Fruits -->
+
+<e lm="ᱩᱞ"><i>ᱩᱞ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+<e lm="ᱥᱮᱣ"><i>ᱥᱮᱣ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 
 <!-- SECTION: Numerals -->
 
@@ -3508,6 +3699,7 @@
 <e lm="ᱟᱨᱮᱜᱮᱞ-ᱯᱮ">    <i>ᱟᱨᱮᱜᱮᱞ-ᱯᱮ</i><par n="ᱵᱟᱨ__num"/></e>
 <e lm="ᱟᱨᱮᱜᱮᱞ-ᱵᱟᱨ">      <i>ᱟᱨᱮᱜᱮᱞ-ᱵᱟᱨ</i><par n="ᱵᱟᱨ__num"/></e>
 <e lm="ᱢᱤᱫ">             <i>ᱢᱤᱫ</i><par n="ᱢᱤᱫ__num"/></e>
+<e lm="ᱢᱤᱫ">             <i>ᱢᱤᱫ</i><par n="ᱢᱤᱫ__num_noun"/></e>
 <e lm="ᱢᱤᱫ ᱥᱟᱭ">     <i>ᱢᱤᱫ<b/>ᱥᱟᱭ</i><par n="ᱢᱤᱞᱤᱭᱚᱱ__num"/></e>
 <e lm="ᱢᱤᱫ ᱢᱤᱞᱤᱭᱚᱱ">     <i>ᱢᱤᱫ<b/>ᱢᱤᱞᱤᱭᱚᱱ</i><par n="ᱢᱤᱞᱤᱭᱚᱱ__num"/></e>
 <e lm="ᱢᱤᱫ ᱵᱤᱞᱤᱭᱚᱱ">     <i>ᱢᱤᱫ<b/>ᱵᱤᱞᱤᱭᱚᱱ</i><par n="ᱢᱤᱞᱤᱭᱚᱱ__num"/></e>
@@ -4131,16 +4323,22 @@
 <!-- SECTION: Prnsubj -->
 
 
-
+<!-- SECTION: Uncategorised Words -->
+<e lm="ᱩᱞ"><i>ᱩᱞ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+<e lm="ᱠᱟᱭᱨᱟ"><i>ᱠᱟᱭᱨᱟ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+<e lm="ᱥᱮᱣ"><i>ᱥᱮᱣ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 
 <!-- SECTION: Uncategorised Words -->
 
 
 <e lm="ᱚᱲᱟᱜ"><i>ᱚᱲᱟᱜ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱦᱟᱯᱟ"><i>ᱦᱟᱯᱟ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
+
 <e lm="ᱛᱤ"><i>ᱛᱤ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱞᱤᱞ"><i>ᱞᱤᱞ</i><par n="nice/__adj"/></e>
-<e lm="ᱡᱚᱢ"><i></i><par n="ᱡᱚᱢ__vblex"/></e>
+<e lm="ᱡᱚᱢ"><i>ᱡᱚᱢ</i><par n="ᱡᱚᱢ__vblex"/></e>
+<e lm="ᱡᱚᱢ"><i>ᱡᱚᱢ</i><par n="east__n"/></e>
+<e lm="ᱫᱚ"><i>ᱫᱚ</i><par n="ᱫᱚ__vblex"/></e>
 <e lm="ᱢᱮᱨᱚᱢ"><i>ᱢᱮᱨᱚᱢ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>
 <e lm="ᱥᱟᱱᱛᱟᱲᱤ"><i>ᱥᱟᱱᱛᱟᱲᱤ</i><par n="ᱠᱚᱧᱮ__n"/></e>
 <e lm="ᱥᱟᱭ">       <i>ᱥᱟᱭ</i><par n="ᱰᱟᱹᱝᱜᱽᱨᱤ__n"/></e>

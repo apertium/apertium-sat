@@ -63,6 +63,16 @@ $ echo "TODO: test sentence" | apertium -d . sat-tagger
 TODO: test tagger result
 ```
 
+Example:
+
+```console
+$ echo "ᱨᱚᱵᱤ ᱩᱞ ᱡᱚᱢ ᱮᱫᱟᱭ" | apertium -d . sat-morph
+^ᱨᱚᱵᱤ/ᱨᱚᱵᱤ<np><ant><m><sg>$ ^ᱩᱞ/ᱩᱞ<n><sg>$ ^ᱡᱚᱢ ᱮᱫᱟᱭ/ᱡᱚᱢ<vblex><pprs>/ᱡᱚᱢ<vblex><subs>$^./.<sent>$
+
+$ echo "ᱨᱚᱵᱤ ᱩᱞ ᱡᱚᱢ ᱮᱫᱟᱭ" | apertium -d . sat-tagger
+^ᱨᱚᱵᱤ/ᱨᱚᱵᱤ<np><ant><m><sg>$ ^ᱩᱞ/ᱩᱞ<n><sg>$ ^ᱡᱚᱢ ᱮᱫᱟᱭ/ᱡᱚᱢ<vblex><pprs>/ᱡᱚᱢ<vblex><subs>$^./.<sent>$
+```
+
 Files and data
 -------------------------------------------------------------------------------
 
